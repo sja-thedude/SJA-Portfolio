@@ -1,1 +1,1 @@
-# sja-thedude-Project-Portfolio-setup-and-mobile-version-skeleton
+Project-Portfolio-setup-and-mobile-version-skeleton
