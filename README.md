@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live
 
-[Live Link](https://sja-thedude.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+[Live Link](https://sja-thedude.github.io/Project-Portfolio-setup-and-mobile-version-skeleton/)
 
 ## 📝 License
 
