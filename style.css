@@ -1,0 +1,62 @@
+html {
+  background: #191765;
+  display: flex;
+}
+
+.header h3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  text-align: left;
+  max-width: 100%;
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  align-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.about {
+  background-image: url("img/top circles.png");
+  color: #fff;
+}
+
+h1 {
+  color: #00f;
+  font-size: 80px;
+  text-align: center;
+  display: flex;
+}
+
+.about h3 {
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+}
+
+.about p {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+}
+
+.logo {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+}
+
+.nav:hover img {
+  opacity: 0.3;
+}
+
+#contact {
+  text-align: center;
+  color: #fff;
+}
+
+.contact h2 {
+  color: #00f;
+}
