@@ -1,23 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 html {
   background: #191765;
   display: block;
 }
 
 .nav {
-  text-align: center;
+  justify-content: space-between;
+  width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  padding: 1rem 2.5rem;
+  padding: 5px 15px;
 }
 
 .header {
   display: flex;
-  align-items: center;
-  text-align: center;
-  font-family: sans-serif;
-  padding: 0 8vw;
+  font-family: 'Roboto', sans-serif;
   justify-content: center;
+  width: 100vw;
 }
 
 .logo {
@@ -25,42 +25,48 @@ html {
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
-}
-
-.logo h3 {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-weight: bold;
-  font-size: 25px;
-  padding-right: 200px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0;
 }
 
 .about {
   background-image: url('img/top circles.png');
   color: #fff;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
 h1 {
-  color: #00f;
-  font-size: 80px;
+  color: #7d73fc;
+  line-height: 72px;
+  font-size: 48px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .para {
   text-align: center;
-  font-size: 50px;
+  font-size: 32px;
   display: block;
+  color: #edecff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 44px;
 }
 
 .par {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: normal;
   display: block;
+  color: #c8c8d4;
+  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav:hover img {
@@ -73,5 +79,9 @@ h1 {
 }
 
 .contact h2 {
-  color: #00f;
+  color: #ebebff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
 }
