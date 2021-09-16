@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html {
+  background: #191765;
+  display: block;
+}
+
+.nav {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.header {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  width: 100vw;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0;
+}
+
+.about {
+  background-image: url('img/top circles.png');
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #7d73fc;
+  line-height: 72px;
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.para {
+  text-align: center;
+  font-size: 32px;
+  display: block;
+  color: #edecff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.par {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  display: block;
+  color: #c8c8d4;
+  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav:hover img {
+  opacity: 0.3;
+}
+
+#contact {
+  text-align: center;
+  color: #fff;
+}
+
+.contact h2 {
+  color: #ebebff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+}
