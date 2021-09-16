@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project : Setup And Mobile Version Skeleton
+# Project : Portfolio: Mobile Version
 
 ![screenshot](./app_screenshot.png)
 
@@ -23,5 +23,3 @@ To get a local copy of the project there are two ways:
 ## Additional Tools
 
 - Figma
-
-## Live
