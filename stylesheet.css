@@ -4,37 +4,175 @@
 html {
   background: #191765;
   display: flex;
-  padding: 12px 12px;
-  background-image: url("img/portfoliobackgroud.png");
+}
+
+.nav {
+  justify-content: space-between;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
 }
 
 .header {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-between;
+  width: 550px;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0;
+}
+
+.about {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.mainabout {
+  width: 475px;
+}
+
+.intro {
+  background-image: url('img/top circles.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  width: 475px;
+}
+
+h1 {
+  color: #7d73fc;
+  line-height: 72px;
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.para {
+  text-align: center;
+  font-size: 32px;
+  display: block;
+  color: #edecff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.par {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  display: block;
+  color: #c8c8d4;
+  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav:hover img {
+  opacity: 0.3;
+}
+
+#contact {
+  text-align: center;
+  color: #fff;
+  padding: 20px 125px;
+}
+
+.contact h2 {
+  color: #ebebff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+  display: flex;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.work {
+  background-image: url("img/portfoliobackgroud.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  justify-content: space-around;
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns: 100%;
+  margin: 0;
+}
+
+.prolang li {
+  padding: 5px 5px;
+  margin-bottom: 29px;
+  position: relative;
+  border-right: 1px solid #555;
+  text-align: center;
+}
+
+.prolang li span:first-child {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.prolang li span.text {
+  padding-left: 20px;
+}
+
+.prolang li:last-child {
+  border: none;
+}
+
+.head {
   color: #fff;
   display: flex;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.vl {
-  border-left: 6px #555;
-  position: static;
-  width: 1px;
-  height: 40px;
-  left: 130px;
-  background: #555;
-}
-
 .w1,
 .w2,
 .w3,
 .w4 {
-  padding: 20px 20px;
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  margin: 12px 12px;
 }
 
 .lang {
   display: flex;
   flex-direction: column;
   list-style-type: none;
+}
+
+.pro {
+  padding: 5px 5px;
+  margin: 0;
+}
+
+.pro h3 {
+  margin: auto;
+}
+
+body {
+  margin: auto;
 }
 
 .lang h3 {
@@ -217,7 +355,6 @@ html {
 }
 
 hr {
-  top: calc(50% - 0px / 2 + 0.5px);
   border: 1px solid #646369;
   width: 100%;
   align-items: center;
@@ -273,23 +410,6 @@ hr {
   justify-content: space-between;
 }
 
-.nav {
-  text-align: left;
-  max-width: 100%;
-  display: flex;
-  height: auto;
-  margin: 0 auto;
-  align-content: flex-end;
-  flex-direction: row-reverse;
-}
-
-.work {
-  color: #fff;
-  justify-content: space-around;
-  margin: 24px 24px;
-  padding: 25px 25px;
-}
-
 .w1 h3,
 .w2 h3,
 .w3 h3,
@@ -330,7 +450,6 @@ button {
 .w2p,
 .w3p,
 .w4p {
-  position: static;
   width: 327px;
   height: 204px;
   top: 129px;
@@ -340,6 +459,15 @@ button {
   font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
+  margin: 0;
+  padding: 20px 10px;
+}
+
+.w1p,
+.w2p,
+.w3p,
+.w4p p {
+  margin: auto;
 }
 
 .prolang p {
@@ -410,9 +538,10 @@ button {
 }
 
 .imgplaceholder {
-  position: static;
+  padding: 10px 10px;
   width: 327px;
   height: 236px;
+  margin-bottom: 24px;
   background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
 }
 
@@ -471,6 +600,5 @@ button {
 }
 
 button:enabled {
-  color: #2b2;
   color: #edecff;
 }
