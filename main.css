@@ -4,6 +4,7 @@
 html {
   background: #191765;
   display: flex;
+  overflow-x: hidden;
 }
 
 .nav {
