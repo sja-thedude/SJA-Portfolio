@@ -87,13 +87,13 @@ h1 {
   opacity: 0.3;
 }
 
-#contact {
+.footer {
   text-align: center;
   color: #fff;
   padding: 20px 125px;
 }
 
-.contact h2 {
+.footer h2 {
   color: #ebebff;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
