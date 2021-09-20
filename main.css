@@ -125,6 +125,9 @@ section {
   position: relative;
   border-right: 1px solid #555;
   text-align: center;
+    float: left;
+    max-width: 24%;
+    box-sizing: content-box;
 }
 
 .prolang li span:first-child {
@@ -477,8 +480,6 @@ button {
 }
 
 .prolang {
-  display: flex;
-  flex-direction: row;
   list-style-type: none;
   padding: 10px 10px;
 }
