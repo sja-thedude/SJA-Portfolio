@@ -669,7 +669,7 @@ footer > * {
 
 #msg {
   vertical-align: top;
-  height: 5em;
+  height: 12em;
   left: 12px;
   right: 12px;
   top: 12px;
@@ -736,4 +736,8 @@ form > ul > li {
 form > ul > li > * {
   width: 100%;
   margin: 10px 0;
+}
+
+textarea {
+  height: auto;
 }
