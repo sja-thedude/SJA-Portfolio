@@ -721,18 +721,22 @@ footer > * {
   max-width: 95%;
   padding: 0;
 }
+
 form > ul {
   padding: 15px 0;
 }
+
 form {
   width: 100%;
   margin: 0px;
 }
+
 form > ul > li {
   width: 100%;
   margin: 0;
   padding: 0;
 }
+
 form > ul > li > * {
   width: 100%;
   margin: 10px 0;
