@@ -543,8 +543,7 @@ button {
   width: 327px;
   height: 236px;
   margin-bottom: 24px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
-    url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
 }
 
 .imgplaceholder > ul {
@@ -618,11 +617,7 @@ button:enabled {
   text-align: center;
   color: #f5f5ff;
   margin: auto;
-  padding: 15px 0px;
-}
-
-footer > * {
-  text-align: center;
+  padding: 15px 0;
 }
 
 .contact-form {
@@ -632,15 +627,14 @@ footer > * {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  padding: 0px 15px;
+  padding: 0 15px;
   margin: auto;
 }
 
 .contact-form h1 {
   position: static;
-
   height: 35px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -654,7 +648,7 @@ footer > * {
 }
 
 .contact-form form {
-  padding: 25px 0px;
+  padding: 25px 0;
   margin: auto;
 }
 
@@ -674,9 +668,7 @@ footer > * {
   right: 12px;
   top: 12px;
   bottom: 12px;
-  font-family: "Inter" sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 24px;
   color: #81818c;
@@ -684,19 +676,18 @@ footer > * {
 
 input,
 textarea {
-  font: 15;
   width: 300px;
   padding: 10px 5px;
   box-sizing: border-box;
   border: 1px solid #9490ff;
 }
 
-form li + li {
+.contact-form form li + li {
   margin-top: 1em;
 }
 
 #name {
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 24px;
   display: flex;
@@ -705,7 +696,7 @@ form li + li {
 }
 
 #mail {
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 24px;
   display: flex;
@@ -720,20 +711,25 @@ form li + li {
 footer > * {
   max-width: 95%;
   padding: 0;
+  text-align: center;
 }
-form > ul {
+
+.contact-form form > ul {
   padding: 15px 0;
 }
-form {
+
+.contact-form form {
   width: 100%;
   margin: 0px;
 }
-form > ul > li {
+
+.contact-form form > ul > li {
   width: 100%;
   margin: 0;
   padding: 0;
 }
-form > ul > li > * {
+
+.contact-form form > ul > li > * {
   width: 100%;
   margin: 10px 0;
 }
