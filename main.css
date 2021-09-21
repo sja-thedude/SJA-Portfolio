@@ -632,7 +632,7 @@ footer > * {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  padding: 15px 15px;
+  padding: 0px 15px;
   margin: auto;
 }
 
@@ -655,13 +655,16 @@ footer > * {
 
 .contact-form form {
   padding: 25px 0px;
+  margin: auto;
 }
 
-.contact-form > ul {
+.contact-form  ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: auto;
+  padding: 15px 15px;
+  max-width: 95%;
 }
 
 #msg {
@@ -682,7 +685,7 @@ footer > * {
 input,
 textarea {
   font: 15;
-  width: 100%;
+  width: 300px;
   padding: 10px 5px;
   box-sizing: border-box;
   border: 1px solid #9490ff;
@@ -708,4 +711,12 @@ form li + li {
   display: flex;
   align-items: center;
   color: #191765;
+}
+
+.contact-form button {
+  margin: auto;
+}
+
+footer > * {
+  max-width: 95%;
 }
