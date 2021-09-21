@@ -714,38 +714,22 @@ footer > * {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .contact-form form > ul {
   padding: 15px 0;
 }
 
 .contact-form form {
-=======
-form > ul {
-  padding: 15px 0;
-}
-
-form {
->>>>>>> eb7aed6e5483884c4710f0eed7f08efb60412c73
   width: 100%;
   margin: 0px;
 }
 
-<<<<<<< HEAD
 .contact-form form > ul > li {
-=======
-form > ul > li {
->>>>>>> eb7aed6e5483884c4710f0eed7f08efb60412c73
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-<<<<<<< HEAD
 .contact-form form > ul > li > * {
-=======
-form > ul > li > * {
->>>>>>> eb7aed6e5483884c4710f0eed7f08efb60412c73
   width: 100%;
   margin: 10px 0;
 }
