@@ -647,11 +647,6 @@ button:enabled {
   padding: 25px 50px;
 }
 
-.contact-form form {
-  padding: 25px 0;
-  margin: auto;
-}
-
 .contact-form ul {
   list-style-type: none;
   display: flex;
@@ -672,6 +667,7 @@ button:enabled {
   font-size: 15px;
   line-height: 24px;
   color: #81818c;
+  margin-top: 1em;
 }
 
 input,
@@ -693,6 +689,7 @@ textarea {
   display: flex;
   align-items: center;
   color: #81818c;
+  margin-top: 1em;
 }
 
 #mail {
@@ -702,6 +699,7 @@ textarea {
   display: flex;
   align-items: center;
   color: #191765;
+  margin-top: 1em;
 }
 
 .contact-form button {
@@ -720,13 +718,12 @@ footer > * {
 
 .contact-form form {
   width: 100%;
-  margin: 0px;
+  margin: auto;
+  padding: 25px 0;
 }
 
 .contact-form form > ul > li {
   width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .contact-form form > ul > li > * {
