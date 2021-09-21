@@ -547,7 +547,7 @@ button {
     url(image_processing20200716-21735-f07s4k.png);
 }
 
-.imgplaceholder ul {
+.imgplaceholder > ul {
   padding: 20px 20px;
 }
 
@@ -605,23 +605,18 @@ button:enabled {
   color: #edecff;
 }
 
-footer {
-  display: grid;
-  grid-template-columns: 100%;
-}
-
 .contactformtext {
   position: static;
   width: 327px;
   height: 105px;
   top: 59px;
-  font-family: 'Inter',sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #F5F5FF;
+  color: #f5f5ff;
   margin: auto;
   padding: 15px 0px;
 }
@@ -631,9 +626,11 @@ footer > * {
 }
 
 .contact-form {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   align-items: center;
   padding: 15px 15px;
   margin: auto;
@@ -641,7 +638,7 @@ footer > * {
 
 .contact-form h1 {
   position: static;
-  width: 327px;
+
   height: 35px;
   font-family: Roboto;
   font-style: normal;
@@ -651,20 +648,20 @@ footer > * {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #9390FF;
+  color: #9390ff;
   margin: auto;
   padding: 25px 50px;
 }
 
 .contact-form form {
-  margin: auto;
   padding: 25px 0px;
 }
 
-.contact-form ul {
+.contact-form > ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 #msg {
@@ -674,19 +671,21 @@ footer > * {
   right: 12px;
   top: 12px;
   bottom: 12px;
-  font-family: 'Inter' sans-serif;
+  font-family: "Inter" sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  color: #81818C;
+  color: #81818c;
 }
 
-input, textarea {
+input,
+textarea {
   font: 15;
-  width: 250px;
+  width: 100%;
+  padding: 10px 5px;
   box-sizing: border-box;
-  border: 1px solid #9490FF;
+  border: 1px solid #9490ff;
 }
 
 form li + li {
@@ -694,16 +693,16 @@ form li + li {
 }
 
 #name {
-  font-family: 'Inter' sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 15px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #81818C;
+  color: #81818c;
 }
 
 #mail {
-  font-family: 'Inter' sans-serif;
+  font-family: "Inter" sans-serif;
   font-size: 15px;
   line-height: 24px;
   display: flex;
