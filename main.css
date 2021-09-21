@@ -678,10 +678,6 @@ textarea {
   border: 1px solid #9490ff;
 }
 
-.contact-form form li + li {
-  margin-top: 1em;
-}
-
 #name {
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -726,7 +722,7 @@ footer > * {
   width: 100%;
 }
 
-.contact-form form > ul > li > * {
+.formlist > li > * {
   width: 100%;
   margin: 10px 0;
 }
