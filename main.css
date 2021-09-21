@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 html {
   background: #191765;
@@ -17,7 +17,7 @@ html {
 
 .header {
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   justify-content: space-between;
   width: 550px;
 }
@@ -29,7 +29,7 @@ html {
   text-align: center;
   font-size: 18px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 16px;
   margin: 0;
@@ -37,7 +37,7 @@ html {
 
 .about {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -46,7 +46,7 @@ html {
 }
 
 .intro {
-  background-image: url('img/top circles.png');
+  background-image: url("img/top circles.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: grid;
@@ -59,7 +59,7 @@ h1 {
   line-height: 72px;
   font-size: 48px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
@@ -68,7 +68,7 @@ h1 {
   font-size: 32px;
   display: block;
   color: #edecff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 44px;
 }
@@ -80,7 +80,7 @@ h1 {
   display: block;
   color: #c8c8d4;
   line-height: 28px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav:hover img {
@@ -95,7 +95,7 @@ h1 {
 
 .contact h2 {
   color: #ebebff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: normal;
   line-height: 28px;
@@ -181,7 +181,7 @@ body {
   height: 16px;
   left: 8px;
   top: 5.33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -199,7 +199,7 @@ body {
   height: 16px;
   left: 8px;
   top: 5.33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -218,7 +218,7 @@ body {
   height: 16px;
   left: 8px;
   top: 5.33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -236,7 +236,7 @@ body {
   width: 84px;
   height: 14px;
   top: 7.17px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -252,7 +252,7 @@ body {
   width: 96.75px;
   height: 14.33px;
   top: 7.17px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -269,7 +269,7 @@ body {
   width: 68.08px;
   height: 14.33px;
   top: 7.17px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -291,7 +291,7 @@ body {
   width: 104.52px;
   height: 15.48px;
   top: 7.74px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -310,7 +310,7 @@ body {
   width: 73.55px;
   height: 15.48px;
   top: 7.74px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -338,7 +338,7 @@ body {
   width: 76px;
   height: 16px;
   top: 8px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -375,7 +375,7 @@ hr {
   height: 32px;
   left: 30px;
   top: 4px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -418,7 +418,7 @@ hr {
   position: static;
   width: 327px;
   height: 105px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -438,7 +438,7 @@ button {
   width: 89px;
   height: 48px;
   top: 421px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   letter-spacing: 0.03em;
   font-style: normal;
@@ -454,7 +454,7 @@ button {
   width: 327px;
   height: 204px;
   top: 129px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -488,7 +488,7 @@ button {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -502,7 +502,7 @@ button {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -516,7 +516,7 @@ button {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -530,7 +530,7 @@ button {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -543,7 +543,8 @@ button {
   width: 327px;
   height: 236px;
   margin-bottom: 24px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
+    url(image_processing20200716-21735-f07s4k.png);
 }
 
 .imgplaceholder ul {
@@ -555,7 +556,7 @@ button {
   width: 327px;
   height: 104px;
   left: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -572,7 +573,7 @@ button {
   height: 16px;
   left: 8px;
   top: 5.33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -589,7 +590,7 @@ button {
   height: 16px;
   left: 8px;
   top: 5.33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -602,4 +603,13 @@ button {
 
 button:enabled {
   color: #edecff;
+}
+footer {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.contactformtext {
+}
+footer > * {
+  text-align: center;
 }
