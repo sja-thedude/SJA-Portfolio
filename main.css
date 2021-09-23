@@ -86,7 +86,7 @@ html {
 
 .about h1:hover {
   transition: width 2s, height 2s, color 2s, transform 2s;
-  transform: scale(200%);
+  transform: scale(2, 2);
   color: #9391ff;
 }
 
@@ -689,8 +689,9 @@ button {
   width: 327px;
   height: 236px;
   margin-bottom: 24px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
-    url(image_processing20200716-21735-f07s4k.png);
+  background:
+  linear-gradient(0deg, #f9f9f9, #f9f9f9),
+  url(image_processing20200716-21735-f07s4k.png);
 }
 
 .imgplaceholder > ul {
@@ -937,6 +938,7 @@ textarea {
     margin-left: 100px;
     transition: font-size 2s, line-height 2s, transform 2s;
   }
+
   .logo:hover {
     font-size: 20px;
     line-height: 22px;
@@ -976,7 +978,7 @@ textarea {
     margin-left: 300px;
   }
 
-  .nav-ditemportfolio p {
+  .nav-ditemportfolio {
     position: static;
     width: 59px;
     height: 20px;
@@ -995,12 +997,12 @@ textarea {
     transition: all 2s ease-out;
   }
 
-  .nav-ditemportfolio p:hover,
-  .nav-ditemportfolio p:focus {
-  color: #00f;
+  .nav-ditemportfolio:hover,
+  .nav-ditemportfolio:focus {
+    color: #00f;
   }
 
-  .nav-ditemabout p {
+  .nav-ditemabout {
     position: static;
     width: 41px;
     height: 20px;
@@ -1019,12 +1021,12 @@ textarea {
     transition: all 2s ease-out;
   }
 
-  .nav-ditemabout p:hover,
-  .nav-ditemabout p:focus {
-  color: #00f;
+  .nav-ditemabout:hover,
+  .nav-ditemabout:focus {
+    color: #00f;
   }
 
-  .nav-ditemcontact p {
+  .nav-ditemcontact {
     position: static;
     width: 53px;
     height: 20px;
@@ -1043,9 +1045,9 @@ textarea {
     transition: all 2s ease-out;
   }
 
-  .nav-ditemcontact p:hover,
-  .nav-ditemcontact p:focus {
-  color: #00f;
+  .nav-ditemcontact:hover,
+  .nav-ditemcontact:focus {
+      color: #00f;
   }
 
   .unicon {
@@ -1099,7 +1101,7 @@ textarea {
 
   .about h1:hover {
     transition: width 2s, height 2s, color 2s, transform 2s;
-    transform: scale(200%);
+    transform: scale(2, 2);
     color: #9391ff;
   }
 
@@ -1530,8 +1532,9 @@ textarea {
     width: 684px;
     height: 448px;
     margin: 0 24px;
-    background: linear-gradient(0deg, #fff, #fff),
-      url(image_processing20200716-21735-f07s4k.png);
+    background:
+    linear-gradient(0deg, #fff, #fff),
+    url(image_processing20200716-21735-f07s4k.png);
   }
 
   .imgplaceholder > ul {
