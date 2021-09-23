@@ -690,8 +690,8 @@ button {
   height: 236px;
   margin-bottom: 24px;
   background:
-  linear-gradient(0deg, #f9f9f9, #f9f9f9),
-  url(image_processing20200716-21735-f07s4k.png);
+    linear-gradient(0deg, #f9f9f9, #f9f9f9),
+    url(image_processing20200716-21735-f07s4k.png);
 }
 
 .imgplaceholder > ul {
@@ -784,7 +784,7 @@ button:enabled {
   justify-content: center;
 }
 
-.contact-form h1 {
+h1 {
   position: static;
   height: 35px;
   font-family: "Roboto", sans-serif;
@@ -1047,7 +1047,7 @@ textarea {
 
   .nav-ditemcontact:hover,
   .nav-ditemcontact:focus {
-      color: #00f;
+    color: #00f;
   }
 
   .unicon {
@@ -1533,8 +1533,8 @@ textarea {
     height: 448px;
     margin: 0 24px;
     background:
-    linear-gradient(0deg, #fff, #fff),
-    url(image_processing20200716-21735-f07s4k.png);
+      linear-gradient(0deg, #fff, #fff),
+      url(image_processing20200716-21735-f07s4k.png);
   }
 
   .imgplaceholder > ul {
@@ -1776,7 +1776,7 @@ textarea {
     margin: auto;
   }
 
-  .contact-form h1 {
+  h1 {
     position: static;
     width: 686px;
     height: 56px;
