@@ -784,7 +784,7 @@ button:enabled {
   justify-content: center;
 }
 
-h1 {
+.conh1 {
   position: static;
   height: 35px;
   font-family: "Roboto", sans-serif;
@@ -1776,7 +1776,7 @@ textarea {
     margin: auto;
   }
 
-  h1 {
+  .conh1 {
     position: static;
     width: 686px;
     height: 56px;
