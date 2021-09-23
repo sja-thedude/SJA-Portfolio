@@ -45,6 +45,7 @@ html {
   margin: 0;
   transition: font-size 2s, line-height 2s, transform 2s;
 }
+
 .logo:hover {
   font-size: 20px;
   line-height: 18px;
@@ -932,7 +933,7 @@ textarea {
   }
   .logo:hover {
     font-size: 20px;
-    line-height: 18px;
+    line-height: 22px;
     transform: rotate(360deg);
   }
 
@@ -985,6 +986,12 @@ textarea {
     text-align: center;
     color: #fff;
     margin: 0 10px;
+    transition: all 2s ease-out;
+  }
+
+  .nav-ditemportfolio p:hover,
+  .nav-ditemportfolio p:focus {
+  color: #00f;
   }
 
   .nav-ditemabout p {
@@ -1003,6 +1010,12 @@ textarea {
     text-align: center;
     color: #fff;
     margin: 0 10px;
+    transition: all 2s ease-out;
+  }
+
+  .nav-ditemabout p:hover,
+  .nav-ditemabout p:focus {
+  color: #00f;
   }
 
   .nav-ditemcontact p {
@@ -1021,6 +1034,12 @@ textarea {
     text-align: center;
     color: #fff;
     margin: 0 10px;
+    transition: all 2s ease-out;
+  }
+
+  .nav-ditemcontact p:hover,
+  .nav-ditemcontact p:focus {
+  color: #00f;
   }
 
   .unicon {
