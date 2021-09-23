@@ -84,6 +84,12 @@ html {
   justify-content: center;
 }
 
+.about h1:hover {
+  transition: width 2s, height 2s, color 2s, transform 2s;
+  transform: scale(200%);
+  color: #9391ff;
+}
+
 .para {
   text-align: center;
   font-size: 32px;
@@ -1089,6 +1095,12 @@ textarea {
     justify-content: center;
     margin: auto;
     margin-bottom: 50px;
+  }
+
+  .about h1:hover {
+    transition: width 2s, height 2s, color 2s, transform 2s;
+    transform: scale(200%);
+    color: #9391ff;
   }
 
   .para {
