@@ -43,6 +43,12 @@ html {
   font-weight: 500;
   line-height: 16px;
   margin: 0;
+  transition: font-size 2s, line-height 2s, transform 2s;
+}
+.logo:hover {
+  font-size: 20px;
+  line-height: 18px;
+  transform: rotate(360deg);
 }
 
 .about {
@@ -676,7 +682,8 @@ button {
   width: 327px;
   height: 236px;
   margin-bottom: 24px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
+    url(image_processing20200716-21735-f07s4k.png);
 }
 
 .imgplaceholder > ul {
@@ -921,6 +928,12 @@ textarea {
     font-weight: 500;
     line-height: 20px;
     margin-left: 100px;
+    transition: font-size 2s, line-height 2s, transform 2s;
+  }
+  .logo:hover {
+    font-size: 20px;
+    line-height: 18px;
+    transform: rotate(360deg);
   }
 
   .work {
@@ -1075,25 +1088,25 @@ textarea {
     margin: auto;
     margin-bottom: 50px;
     animation: 3s slide;
-}
-
-@keyframes slide {
-  from {
-    margin-left: 100%;
-    width: 300%;
   }
 
-  75% {
-    font-size: 300%;
-    margin-left: 25%;
-    width: 150%;
-  }
+  @keyframes slide {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
-}
 
   .par {
     position: static;
@@ -1110,7 +1123,7 @@ textarea {
     padding: 0 300px;
     margin: auto;
     animation: 3s slidein;
-}
+  }
 
   @keyframes slidein {
     from {
@@ -1124,14 +1137,14 @@ textarea {
     }
   }
 
-    .head {
-      color: #fff;
-      flex-direction: column;
-      display: grid;
-      grid-template-columns: 33% 33% 33%;
-      list-style-type: none;
-      margin: auto;
-            text-align: center;
+  .head {
+    color: #fff;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
     justify-content: center;
   }
 
@@ -1486,7 +1499,8 @@ textarea {
     width: 684px;
     height: 448px;
     margin: 0 24px;
-    background: linear-gradient(0deg, #fff, #fff), url(image_processing20200716-21735-f07s4k.png);
+    background: linear-gradient(0deg, #fff, #fff),
+      url(image_processing20200716-21735-f07s4k.png);
   }
 
   .imgplaceholder > ul {
