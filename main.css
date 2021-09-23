@@ -75,16 +75,16 @@ html {
   margin: 0;
 }
 
-.about h1 {
+h1 {
   color: #7d73fc;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   justify-content: center;
 }
 
-.about h1:hover {
+h1:hover {
   transition: width 2s, height 2s, color 2s, transform 2s;
   transform: scale(2, 2);
   color: #9391ff;
@@ -784,23 +784,6 @@ button:enabled {
   justify-content: center;
 }
 
-.conh1 {
-  position: static;
-  height: 35px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #9390ff;
-  margin: auto;
-  padding: 25px 50px;
-  justify-content: center;
-}
-
 .contact-form ul {
   list-style-type: none;
   display: flex;
@@ -1083,13 +1066,13 @@ textarea {
     margin: auto;
   }
 
-  .about h1 {
+  h1 {
     position: static;
     width: 1156px;
     height: 96px;
     font-style: normal;
     font-weight: bold;
-    font-size: 90px;
+    font-size: 70px;
     line-height: 105px;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -1099,7 +1082,7 @@ textarea {
     margin-bottom: 50px;
   }
 
-  .about h1:hover {
+  h1:hover {
     transition: width 2s, height 2s, color 2s, transform 2s;
     transform: scale(2, 2);
     color: #9391ff;
@@ -1774,24 +1757,6 @@ textarea {
     align-items: center;
     padding: 0 15px;
     margin: auto;
-  }
-
-  .conh1 {
-    position: static;
-    width: 686px;
-    height: 56px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #9390ff;
-    margin: 24px 0;
-    padding: 25px 50px;
-    justify-content: center;
   }
 
   .contact-form form > ul {
