@@ -86,6 +86,25 @@ html {
   font-weight: 500;
   line-height: 44px;
   justify-content: center;
+  animation: 3s slide;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .par {
@@ -99,6 +118,19 @@ html {
   margin: auto;
   width: 70%;
   justify-content: center;
+  animation: 3s slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .nav-ditems {
@@ -942,7 +974,7 @@ textarea {
     margin: 0 10px;
   }
 
-  .nav-ditemabout {
+  .nav-ditemabout p {
     position: static;
     width: 41px;
     height: 20px;
@@ -960,7 +992,7 @@ textarea {
     margin: 0 10px;
   }
 
-  .nav-ditemcontact {
+  .nav-ditemcontact p {
     position: static;
     width: 53px;
     height: 20px;
@@ -1042,7 +1074,26 @@ textarea {
     justify-content: center;
     margin: auto;
     margin-bottom: 50px;
+    animation: 3s slide;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
   }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
   .par {
     position: static;
@@ -1058,16 +1109,29 @@ textarea {
     color: #b3bac5;
     padding: 0 300px;
     margin: auto;
+    animation: 3s slidein;
+}
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
-  .head {
-    color: #fff;
-    flex-direction: column;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    list-style-type: none;
-    margin: auto;
-    text-align: center;
+    .head {
+      color: #fff;
+      flex-direction: column;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      list-style-type: none;
+      margin: auto;
+            text-align: center;
     justify-content: center;
   }
 
