@@ -1081,7 +1081,6 @@ textarea {
   h1 {
     width: 100%;
     position: static;
-    width: 1156px;
     height: 96px;
     font-style: normal;
     font-weight: bold;
@@ -1108,7 +1107,6 @@ textarea {
   .para {
     width: 100%;
     position: static;
-    width: 1156px;
     height: 72px;
     top: 120px;
     font-family: "Roboto", sans-serif;
