@@ -57,6 +57,7 @@ html {
 }
 
 .about {
+  width: 100%;
   color: #fff;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -1063,6 +1064,7 @@ textarea {
   }
 
   .about {
+    width: 100%;
     color: #fff;
     font-family: "Roboto", sans-serif;
     text-align: center;
