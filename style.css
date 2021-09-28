@@ -25,6 +25,10 @@ html {
   right: 24px;
 }
 
+.unicon {
+  color : #fff;
+}
+
 .header {
   display: flex;
   font-family: "Roboto", sans-serif;
