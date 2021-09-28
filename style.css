@@ -75,6 +75,10 @@ html {
   margin: 0;
 }
 
+img [attribute="alt"] {
+  color: #fff;
+}
+
 h1 {
   color: #7d73fc;
   font-size: 40px;
@@ -1088,6 +1092,10 @@ textarea {
     color: #9391ff;
   }
 
+  img [attribute="alt"] {
+    color: #fff;
+  }
+
   .para {
     position: static;
     width: 1156px;
@@ -1876,5 +1884,6 @@ textarea {
     display: flex;
     justify-content: center;
     padding: 10px 10px;
+    color: #fff;
   }
 }
