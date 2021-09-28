@@ -25,6 +25,10 @@ html {
   right: 24px;
 }
 
+.unicon {
+  color: #fff;
+}
+
 .header {
   display: flex;
   font-family: "Roboto", sans-serif;
@@ -53,6 +57,7 @@ html {
 }
 
 .about {
+  width: 100%;
   color: #fff;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -75,7 +80,12 @@ html {
   margin: 0;
 }
 
+img [attribute="alt"] {
+  color: #fff;
+}
+
 h1 {
+  width: 100%;
   color: #7d73fc;
   font-size: 40px;
   text-align: center;
@@ -91,6 +101,7 @@ h1:hover {
 }
 
 .para {
+  width: 100%;
   text-align: center;
   font-size: 32px;
   display: block;
@@ -1053,6 +1064,7 @@ textarea {
   }
 
   .about {
+    width: 100%;
     color: #fff;
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -1067,8 +1079,8 @@ textarea {
   }
 
   h1 {
+    width: 100%;
     position: static;
-    width: 1156px;
     height: 96px;
     font-style: normal;
     font-weight: bold;
@@ -1088,9 +1100,13 @@ textarea {
     color: #9391ff;
   }
 
+  img [attribute="alt"] {
+    color: #fff;
+  }
+
   .para {
+    width: 100%;
     position: static;
-    width: 1156px;
     height: 72px;
     top: 120px;
     font-family: "Roboto", sans-serif;
@@ -1876,5 +1892,6 @@ textarea {
     display: flex;
     justify-content: center;
     padding: 10px 10px;
+    color: #fff;
   }
 }
