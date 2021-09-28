@@ -84,6 +84,7 @@ img [attribute="alt"] {
 }
 
 h1 {
+  width: 100%;
   color: #7d73fc;
   font-size: 40px;
   text-align: center;
@@ -99,6 +100,7 @@ h1:hover {
 }
 
 .para {
+  width: 100%;
   text-align: center;
   font-size: 32px;
   display: block;
@@ -1075,6 +1077,7 @@ textarea {
   }
 
   h1 {
+    width: 100%;
     position: static;
     width: 1156px;
     height: 96px;
@@ -1101,6 +1104,7 @@ textarea {
   }
 
   .para {
+    width: 100%;
     position: static;
     width: 1156px;
     height: 72px;
