@@ -14,14 +14,14 @@ const toggleMenu = () => {
   menuList.classList.toggle('active');
   menuButton.classList.toggle('active');
 };
- 
+
 menuButton.addEventListener('click', () => {
   toggleMenu();
   if (menuButton.classList.contains('active')) {
     icon.src = 'img/Icon-close.png';
     mainBody.style.filter = 'none';
     logo.style.filter = 'none';
-  }else {
+  } else {
     filterStyle();
     window.location.reload();
   }
