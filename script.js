@@ -13,18 +13,18 @@ const filterStyle = () => {
 const toggleMenu = () => {
   menuList.classList.toggle('active');
   menuButton.classList.toggle('active');
-};
-  
+}; 
 menuButton.addEventListener('click', () => {
   toggleMenu();
     if (menuButton.classList.contains('active')) {
-      icon.src = 'img/Icon-close.png';
-      menuBody.style.filter = 'none';
-      logo.style.filter = 'none';
-    } else {
-      filterStyle();
-      window.location.reload();
+    icon.src = 'img/Icon-close.png';
+    mainBody.style.filter = 'none';
+    logo.style.filter = 'none';
     }
+    else {
+    filterStyle();
+    window.location.reload();
+  }
 });
 
 menuItems.forEach((item) => {
