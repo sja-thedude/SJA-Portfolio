@@ -6,7 +6,7 @@ html {
   display: flex;
   overflow-x: hidden;
   margin: 0;
-  width: 100%;
+  width: fit-content;
 }
 
 .nav {
@@ -21,7 +21,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  position: absolute;
+  position: relative;
   right: 24px;
 }
 
@@ -78,8 +78,8 @@ html {
 .intro {
   background-image: url("img/top circles.png");
   background-repeat: no-repeat;
-  background-size: 1000px;
-  width: 100%;
+  background-size: cover;
+  width: fit-content;
   justify-content: center;
   margin: 0;
 }
@@ -171,8 +171,8 @@ h1:hover {
 .nav-ditems.active {
   text-decoration: none;
   position: fixed;
-  width: 89%;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   left: 0;
   top: 0;
   background: #191765;
@@ -188,8 +188,7 @@ h1:hover {
   color: #edecff;
   background-image: url("img/shapes-mobile-menu.png");
   background-repeat: no-repeat;
-  background-size: 992px;
-  margin: 0;
+  background-size: cover;
   padding-top: 12%;
 }
 
@@ -236,10 +235,6 @@ h1:hover {
   justify-content: center;
 }
 
-.nav:hover img {
-  opacity: 0.3;
-}
-
 .contact {
   justify-content: center;
   text-align: center;
@@ -259,18 +254,13 @@ h1:hover {
   padding: 10px 10px;
 }
 
-section {
-  display: grid;
-  grid-template-columns: 100%;
-}
-
 .work {
   background-image: url("img/portfoliobackgroud.png");
   background-repeat: no-repeat;
-  background-size: 1000px;
+  background-size: cover;
+  width: fit-content;
   color: #fff;
   padding: 10px 10px;
-  width: 100%;
   display: grid;
   grid-template-columns: 100%;
   margin: 0;
@@ -345,7 +335,6 @@ section {
 }
 
 body {
-  margin: 0;
   text-align: center;
   align-items: center;
   justify-content: center;
