@@ -258,7 +258,7 @@ h1:hover {
   background-image: url("img/portfoliobackgroud.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: fit-content;
+  width: 100%;
   color: #fff;
   padding: 10px 10px;
   display: grid;
