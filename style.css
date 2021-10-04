@@ -35,9 +35,9 @@ html {
 }
 
 .header {
-  display: flex;
+  /* display: flex; */
   font-family: "Roboto", sans-serif;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
 }
 
@@ -52,6 +52,7 @@ html {
   font-weight: 500;
   line-height: 16px;
   margin: 0;
+  padding-top: 6%;
   transition: font-size 2s, line-height 2s, transform 2s;
 }
 
@@ -172,8 +173,8 @@ h1:hover {
 .nav-ditems.active {
   text-decoration: none;
   position: fixed;
-  width: 992px;
-  height: 100%;
+  width: 89%;
+  height: 100vh;
   left: 0;
   top: 0;
   background: #191765;
@@ -191,13 +192,14 @@ h1:hover {
   background-repeat: no-repeat;
   background-size: 992px;
   margin: 0;
-  padding-top: 15px;
+  padding-top: 12%;
 }
 
 .nav-ditem {
   display: flex;
   color: #edecff;
-  justify-content: left;
+  justify-content: space-between;
+  width: 73%;
   align-items: baseline;
 }
 
@@ -943,7 +945,7 @@ textarea {
     flex-direction: row;
     padding: 15px 15px;
     width: 100%;
-    align-items: center;
+    align-items: baseline;
     text-align: center;
     position: static;
   }
@@ -953,10 +955,10 @@ textarea {
   }
 
   .header {
-    display: flex;
+    /* display: flex; */
     font-family: "Roboto", sans-serif;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .logo {
@@ -976,6 +978,7 @@ textarea {
     font-weight: 500;
     line-height: 20px;
     margin-left: 100px;
+    padding-top: 0;
     transition: font-size 2s, line-height 2s, transform 2s;
   }
 
@@ -1015,7 +1018,7 @@ textarea {
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
-    margin-left: 300px;
+    margin-left: 58%;
   }
 
   .nav-ditemportfolio {
@@ -1095,6 +1098,7 @@ textarea {
   }
 
   .unicon {
+    display: block;
     position: static;
     left: 20%;
     right: 20%;

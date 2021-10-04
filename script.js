@@ -27,4 +27,18 @@ const filterStyle = () => {
       window.location.reload();
     }
   });
+  menuItems.forEach((item) => {
+    item.addEventListener('click', () => {
+      toggleMenu();
+      menuList.classList.remove('active');
+      filterStyle();
+      icon.src = 'img/Union.png';
+    });
+  });
+
+  window.addEventListener('resize', () => {
+    if (mainBody.clientWidth >= 992 && menuButton.classList.contains('active')) {
+      window.location.reload();
+    }
+  });
     
