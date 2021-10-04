@@ -25,15 +25,20 @@ html {
   right: 24px;
 }
 
+.menubtn.active {
+  background: #191765;
+  z-index: 2;
+}
+
 .unicon {
-  color: #fff;
+  display: none;
 }
 
 .header {
   display: flex;
   font-family: "Roboto", sans-serif;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
 }
 
 .logo {
@@ -159,6 +164,46 @@ h1:hover {
 
 .nav-ditems {
   display: none;
+  list-style: none;
+  text-decoration: none;
+  color: #edecff;
+}
+
+.nav-ditems.active {
+  text-decoration: none;
+  position: fixed;
+  width: 992px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #191765;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #edecff;
+  background-image: url("img/shapes-mobile-menu.png");
+  background-repeat: no-repeat;
+  background-size: 992px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.nav-ditem {
+  display: flex;
+  color: #edecff;
+  justify-content: left;
+  align-items: baseline;
+}
+
+.nav-ditem :any-link {
+  text-decoration: none;
+  color: #edecff;
 }
 
 .hr1 hr {
@@ -911,6 +956,7 @@ textarea {
     display: flex;
     font-family: "Roboto", sans-serif;
     justify-content: space-between;
+    width: 100%;
   }
 
   .logo {
@@ -1044,6 +1090,10 @@ textarea {
     color: #00f;
   }
 
+  .iconright {
+    display: none;
+  }
+
   .unicon {
     position: static;
     left: 20%;
@@ -1051,6 +1101,7 @@ textarea {
     top: 20%;
     bottom: 20%;
     margin: 0 10px;
+    color: #fff;
   }
 
   .intro {
