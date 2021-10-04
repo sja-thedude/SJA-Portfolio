@@ -35,9 +35,7 @@ html {
 }
 
 .header {
-  /* display: flex; */
   font-family: "Roboto", sans-serif;
-  /* justify-content: space-between; */
   width: 100%;
 }
 
@@ -199,7 +197,7 @@ h1:hover {
   display: flex;
   color: #edecff;
   justify-content: space-between;
-  width: 73%;
+  width: 85%;
   align-items: baseline;
 }
 
@@ -955,10 +953,8 @@ textarea {
   }
 
   .header {
-    /* display: flex; */
     font-family: "Roboto", sans-serif;
     justify-content: space-between;
-    /* width: 100%; */
   }
 
   .logo {
