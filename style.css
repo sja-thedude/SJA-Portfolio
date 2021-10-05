@@ -6,7 +6,7 @@ html {
   display: flex;
   overflow-x: hidden;
   margin: 0;
-  width: 100%;
+  width: auto;
 }
 
 .nav {
@@ -73,6 +73,7 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 .intro {
