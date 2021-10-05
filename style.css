@@ -6,7 +6,7 @@ html {
   display: flex;
   overflow-x: hidden;
   margin: 0;
-  width: 100%;
+  width: auto;
 }
 
 .nav {
@@ -25,15 +25,18 @@ html {
   right: 24px;
 }
 
+.menubtn.active {
+  background: #191765;
+  z-index: 2;
+}
+
 .unicon {
-  color: #fff;
+  display: none;
 }
 
 .header {
-  display: flex;
   font-family: "Roboto", sans-serif;
-  justify-content: space-between;
-  width: 90%;
+  width: 100%;
 }
 
 .logo {
@@ -47,6 +50,7 @@ html {
   font-weight: 500;
   line-height: 16px;
   margin: 0;
+  padding-top: 6%;
   transition: font-size 2s, line-height 2s, transform 2s;
 }
 
@@ -69,12 +73,13 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 .intro {
   background-image: url("img/top circles.png");
   background-repeat: no-repeat;
-  background-size: 1000px;
+  background-size: cover;
   width: 100%;
   justify-content: center;
   margin: 0;
@@ -159,6 +164,46 @@ h1:hover {
 
 .nav-ditems {
   display: none;
+  list-style: none;
+  text-decoration: none;
+  color: #edecff;
+}
+
+.nav-ditems.active {
+  text-decoration: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #191765;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #edecff;
+  background-image: url("img/shapes-mobile-menu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12%;
+}
+
+.nav-ditem {
+  display: flex;
+  color: #edecff;
+  justify-content: space-between;
+  width: 85%;
+  align-items: baseline;
+}
+
+.nav-ditem :any-link {
+  text-decoration: none;
+  color: #edecff;
 }
 
 .hr1 hr {
@@ -191,15 +236,11 @@ h1:hover {
   justify-content: center;
 }
 
-.nav:hover img {
-  opacity: 0.3;
-}
-
 .contact {
   justify-content: center;
   text-align: center;
   color: #fff;
-  padding: 20px 125px;
+  padding: 20px 20px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -211,21 +252,26 @@ h1:hover {
   font-size: 20px;
   font-weight: normal;
   line-height: 28px;
-  padding: 10px 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
 }
 
-section {
-  display: grid;
-  grid-template-columns: 100%;
+.contact img {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 10px;
+  color: #fff;
 }
 
 .work {
   background-image: url("img/portfoliobackgroud.png");
   background-repeat: no-repeat;
-  background-size: 1000px;
-  color: #fff;
-  padding: 10px 10px;
+  background-size: cover;
   width: 100%;
+  color: #fff;
   display: grid;
   grid-template-columns: 100%;
   margin: 0;
@@ -300,11 +346,11 @@ section {
 }
 
 body {
-  margin: 0;
   text-align: center;
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin: 0;
 }
 
 .lang h3 {
@@ -567,14 +613,13 @@ body {
 .w3 h3,
 .w4 h3 {
   position: static;
-  width: 327px;
+  width: 100%;
   height: 105px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-  display: flex;
   align-items: center;
   color: #fff;
 }
@@ -602,7 +647,7 @@ button {
 .w2p,
 .w3p,
 .w4p {
-  width: 327px;
+  width: 100%;
   top: 129px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -638,6 +683,9 @@ button {
   flex-direction: row;
   list-style-type: none;
   padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .css {
@@ -898,7 +946,7 @@ textarea {
     flex-direction: row;
     padding: 15px 15px;
     width: 100%;
-    align-items: center;
+    align-items: baseline;
     text-align: center;
     position: static;
   }
@@ -908,7 +956,6 @@ textarea {
   }
 
   .header {
-    display: flex;
     font-family: "Roboto", sans-serif;
     justify-content: space-between;
   }
@@ -930,6 +977,7 @@ textarea {
     font-weight: 500;
     line-height: 20px;
     margin-left: 100px;
+    padding-top: 0;
     transition: font-size 2s, line-height 2s, transform 2s;
   }
 
@@ -969,7 +1017,7 @@ textarea {
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
-    margin-left: 300px;
+    margin-left: 58%;
   }
 
   .nav-ditemportfolio {
@@ -1044,13 +1092,19 @@ textarea {
     color: #00f;
   }
 
+  .iconright {
+    display: none;
+  }
+
   .unicon {
+    display: block;
     position: static;
     left: 20%;
     right: 20%;
     top: 20%;
     bottom: 20%;
     margin: 0 10px;
+    color: #fff;
   }
 
   .intro {

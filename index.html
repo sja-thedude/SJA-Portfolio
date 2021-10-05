@@ -23,25 +23,30 @@
         <a href="#" class="logo">SJA</a>
         <!--Desktop Version Menu-->
         <ul class="nav-ditems">
-          <li class="nav-ditemportfolio">
-            <p>Portfolio</p>
+          <li class="nav-ditem">
+            <a href="#portfolio"><p class="nav-ditemportfolio">Portfolio</p></a>
+            <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
           </li>
-          <li class="nav-ditemabout">
-            <p>About</p>
+          <li class="nav-ditem">
+            <a href="#about"><p class="nav-ditemabout">About</p></a>
+            <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
           </li>
-          <li class="nav-ditemcontact">
-            <p>Contact</p>
+          <li class="nav-ditem">
+            <a href="#contact"><p class="nav-ditemcontact">Contact</p></a>
+            <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
           </li>
           <li class="unicon">
             <img src="img/UnionEnv.png" alt="Envelope" />
           </li>
         </ul>
         <!--Mobile First-->
-         <img class="btn" src="img/Union.png" alt="Union" />
+        <div class="menubtn">
+          <img class="btn" src="img/Union.png" alt="Union" />
+        </div>
       </nav>
     </header>
     <section class="mainabout">
-      <section class="intro">
+      <section id="portfolio" class="intro">
         <section class="about">
           <h1>SJA</h1>
           <h2 class="para">Software Developer</h2>
@@ -101,7 +106,7 @@
           </div>
         </div>
       </section>
-      <section class="work">
+      <section id="about" class="work">
         <h2>My Recent Work</h2>
         <div class="hr3"><hr></div>
         <section class="w1">
@@ -181,7 +186,7 @@
           </div>
         </section>
       </section>
-    <footer class="contact-form">
+    <footer id="contact" class="contact-form">
       <h1>Let's chat!</h1>
       <p class="contactformtext">
         If you have an application you are interested in developing, a feature
@@ -233,5 +238,6 @@
       <h2>sja.affu765@gmail.com</h2>
     </section>
   </section>
+  <script src="script.js"></script>
   </body>
 </html>
