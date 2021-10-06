@@ -44,8 +44,6 @@ window.addEventListener('resize', () => {
 
 const form = document.querySelector('.contact-form');
 const mail = document.getElementById('mail');
-const name = document.getElementById('name');
-const msg = document.getElementById('msg');
 const error = document.querySelector('.error-msg');
 
 form.addEventListener('submit', (e) => {
@@ -62,5 +60,4 @@ form.addEventListener('submit', (e) => {
     mail.style.border = '2px solid #f00';
     mail.style.borderRadius = '4px';
   }
-
 });
