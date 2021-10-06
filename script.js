@@ -56,4 +56,11 @@ form.addEventListener('submit', (e) => {
     msgs.push('* Email address must be in lowercase.');
   }
 
+  if (msgs.length > 0) {
+    e.preventDefault();
+    error.innerHTML = msgs.join('<br/>');
+    mail.style.border = '2px solid #f00';
+    mail.style.borderRadius = '4px';
+  }
+
 });
