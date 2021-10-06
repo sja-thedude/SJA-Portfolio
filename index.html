@@ -110,25 +110,24 @@
         <h2>My Recent Work</h2>
         <div class="hr3"><hr></div>
 
-        <!--start----------------->
+        <!--start mobile----------------->
         <section class="mobileversion">
-          <div id="pop_up" class="pop_up">
-          <div class="imgpop"><img src="img/snapchat-small.png" alt="" class="proimg"></div>
+          <div id="popup" class="popup">
           <div class="w1p">
             <div class="mheader">
               <div class="pro"><h3 class="protitle">Multi-Post Stories</h3></div>
                 <button data-close-button class="closebtn">&times;</button>
               </div>
+              <div class="imgpop"><img src="img/snapchat-small.png" alt="" class="proimg"></div>
             <p class="prodes">A daily selection of privately personalized reads; no accounts or
               sign-ups required. has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a standard
               dummy text.
             </p>
-            <ul class="prolang">
-              <li class="pro-item"><span class="css">css</span></li>
+            <ul class="prolang" id="prolang">
               <li class="pro-item"><span class="html">html</span></li>
-              <li class="pro-item"><span class="bs">bootstrap</span></li>
-              <li class="pro-item"><span class="ruby">Ruby</span></li>
+              <li class="pro-item"><span class="ruby">Ruby on rails</span></li>
+              <li class="pro-item"><span class="css">css</span></li>
             </ul>
           <div class="action">
             <button class="actbtn-live" type="button">See live <img src="img/Icon1.png" alt="see live icon"></button>
@@ -140,15 +139,15 @@
      </section>
         <!--end---->
 
-        <!--start----------------->
+        <!--start desktop----------------->
         <section class="deskversion">
-          <div id="dpop_up" class="dpop_up">
-          <div class="imgpop"><img src="img/snapchat-big.png" alt="" class="proimg"></div>
+          <div id="dpopup" class="dpopup">
           <div class="w1p">
-            <div class="mheader">
+            <div class="dheader">
               <div class="pro"><h3 class="protitle">Multi-Post Stories</h3></div>
                 <button data-close-button class="closebtn">&times;</button>
               </div>
+              <div class="imgpop"><img src="img/Snapshoot-big.png" alt="" class="proimg"></div>
             <p class="prodes">A daily selection of privately personalized reads; no accounts or
               sign-ups required. has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a standard
@@ -186,7 +185,7 @@
               <li><span class="bs">bootstrap</span></li>
               <li><span class="ruby">Ruby</span></li>
             </ul>
-            <button data-modal-target="#modal" class="see-project">See Project</button>
+            <button data-popup-target="#popup" class="see-project">See Project</button>
           </div>
         </section>
         <section class="w2">
@@ -205,7 +204,7 @@
               <li><span class="bs">bootstrap</span></li>
               <li><span class="ruby">Ruby</span></li>
             </ul>
-            <button type="button" name="See Project">See Project</button>
+            <button data-popup-target="#popup" class="see-project">See Project</button>
           </div>
         </section>
         <section class="w3">
@@ -224,7 +223,7 @@
               <li><span class="bs">bootstrap</span></li>
               <li><span class="ruby">Ruby</span></li>
             </ul>
-            <button type="button" name="See Project">See Project</button>
+            <button data-popup-target="#popup" class="see-project">See Project</button>
           </div>
         </section>
         <section class="w2">
@@ -243,7 +242,7 @@
               <li><span class="bs">bootstrap</span></li>
               <li><span class="ruby">Ruby</span></li>
             </ul>
-            <button type="button" name="See Project">See Project</button>
+            <button data-popup-target="#popup" class="see-project">See Project</button>
           </div>
         </section>
       </section>

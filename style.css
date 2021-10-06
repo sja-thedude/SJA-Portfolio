@@ -277,31 +277,41 @@ h1:hover {
   margin: 0;
   justify-content: center;
 }
-------------------------------------
-.pop_up {
+/*------------------------------------*/
+.popup {
   position: fixed;
   top: 50%;
   left: 50%;
   transform : translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 1px solid #fff;
   z-index: 10;
-  background-color: white;
-  width: 500px;
+  width: 350px;
+  height: 95%;
   max-width: 80%;
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
 }
 
-.modal.active {
+.popup.active {
   transform : translate(-50%, -50%) scale(1);
 }
 
 .mheader {
   padding: 10px 15px;
   display: flex;
-  justify-content: space-space-between;
+  justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black ;
+  width: 90%;
+  height: 58px;
+  left: 0;
+  top: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
 }
 
 .mheader .protitle {
@@ -311,15 +321,21 @@ h1:hover {
 
 .mheader .closebtn {
   cursor: pointer;
-  boder: none;
+  border: none;
   outline: none;
   background: none;
-  font-size: 1.25rem
+  font-size: 1.25rem;
   font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .prodes {
   padding: 10px 15px;
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 #overlay {
@@ -338,7 +354,36 @@ h1:hover {
   opacity: 1;
   pointer-events: all;
 }
-----------------------------------------
+
+#prolang {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.actbtn-live {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 35%;
+  margin-bottom: 10px;
+  width: 108px;
+  height: 48px;
+}
+
+.actbtn-source {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 33%;
+  margin-bottom: 5px;
+  width: 124px;
+  height: 48px;
+}
+
+.dpopup {
+  display: none;
+}
+/*----------------------------------------*/
 .prolang li {
   padding: 5px 5px;
   margin-bottom: 29px;
@@ -1093,6 +1138,74 @@ textarea {
     justify-content: center;
     width: 65%;
   }
+
+  /*-------------desktop popup-----------------------*/
+  .popup {
+    display: none;
+  }
+
+  .dpopup {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    transform : translate(-20%, -20%);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: blue;
+    width: 80%;
+    height: 80%;
+    max-width: 80%;
+  }
+
+  .dpopup.active {
+    transform : translate(-50%, -50%);
+  }
+
+  .dheader {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-space-between;
+    align-items: center;
+    border-bottom: 1px solid black ;
+  }
+
+  .dheader .protitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .dheader .closebtn {
+    cursor: pointer;
+    boder: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem
+    font-weight: bold;
+  }
+
+  .prodes {
+    padding: 10px 15px;
+  }
+
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0 ,0 , 0, .5);
+    pointer-events: none;
+  }
+
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+/*-----------------------------------------*/
 
   .nav-ditems {
     display: flex;
