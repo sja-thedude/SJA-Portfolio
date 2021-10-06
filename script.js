@@ -62,6 +62,51 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+const data = [
+  {
+    pro: 'Multi-Post Stories',
+    proimg: 'img/snapchat-small.png',
+    prodes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    prolang: ['html', 'Ruby on rails', 'css'],
+    live_version: 'https://sja-thedude.github.io/',
+    source_code: 'https://github.com/sja-thedude/',
+  },
+  {
+    pro: 'Multi-Post Stories',
+    proimg: 'img/snapchat-small.png',
+    prodes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    prolang: ['html', 'Ruby on rails', 'css'],
+    live_version: 'https://sja-thedude.github.io/',
+    source_code: 'https://github.com/sja-thedude/',
+  },
+  {
+    pro: 'Multi-Post Stories',
+    proimg: 'img/snapchat-small.png',
+    prodes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    prolang: ['html', 'Ruby on rails', 'css'],
+    live_version: 'https://sja-thedude.github.io/',
+    source_code: 'https://github.com/sja-thedude/',
+  },
+  {
+    pro: 'Multi-Post Stories',
+    proimg: 'img/snapchat-small.png',
+    prodes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    prolang: ['html', 'Ruby on rails', 'css'],
+    live_version: 'https://sja-thedude.github.io/',
+    source_code: 'https://github.com/sja-thedude/',
+  },
+];
+
+const sec = document.querySelector('.popup');
+const secData = data[0];
+
+document.querySelector('.popup .actbtn-live').onclick = () => {
+      window.location.href = secData.live_version;
+    };
+    document.querySelector('.popup .actbtn-source').onclick = () => {
+      window.location.href = secData.source_code;
+    };
+
 const openPopupButtons = document.querySelectorAll('[data-popup-target]')
 const closePopupButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
