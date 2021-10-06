@@ -643,17 +643,9 @@ button {
   background: #7d73fc;
 }
 
-button: hover {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  position: absolute;
-  left: 36.14%;
-  right: 54.84%;
-  top: 55.23%;
-  bottom: 27.44%;
+button:hover {
   background: #7d73fc;
+  color: #fff;
   box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
 }
 
@@ -827,6 +819,7 @@ button: hover {
 
 button:enabled {
   color: #edecff;
+  background: #7D73FC;
 }
 
 .contactformtext {
