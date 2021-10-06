@@ -643,6 +643,20 @@ button {
   background: #7d73fc;
 }
 
+button: hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  left: 36.14%;
+  right: 54.84%;
+  top: 55.23%;
+  bottom: 27.44%;
+  background: #7d73fc;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+}
+
 .w1p,
 .w2p,
 .w3p,
