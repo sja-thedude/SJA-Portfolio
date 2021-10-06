@@ -646,7 +646,7 @@ button {
 button:hover {
   background: #7d73fc;
   color: #fff;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 .w1p,
@@ -819,7 +819,7 @@ button:hover {
 
 button:enabled {
   color: #edecff;
-  background: #7D73FC;
+  background: #7d73fc;
 }
 
 .contactformtext {
