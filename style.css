@@ -278,6 +278,11 @@ h1:hover {
   justify-content: center;
 }
 /*------------------------------------*/
+
+.dimgpop {
+  display: none;
+}
+
 .popup {
   position: fixed;
   top: 50%;
@@ -378,10 +383,6 @@ h1:hover {
   margin-bottom: 5px;
   width: 124px;
   height: 48px;
-}
-
-.dpopup {
-  display: none;
 }
 /*----------------------------------------*/
 .prolang li {
@@ -1140,53 +1141,74 @@ textarea {
   }
 
   /*-------------desktop popup-----------------------*/
-  .popup {
+
+  .imgpop {
     display: none;
   }
 
-  .dpopup {
+  .popup {
     position: fixed;
-    top: 20%;
-    left: 20%;
-    transform : translate(-20%, -20%);
+    transform : translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid #fff;
     z-index: 10;
-    background-color: blue;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 700px;
     max-width: 80%;
+    background: rgba(255, 255, 255, 0.16);
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
   }
 
-  .dpopup.active {
-    transform : translate(-50%, -50%);
+  .popup.active {
+    transform : translate(-50%, -50%) scale(1);
   }
 
-  .dheader {
+  .dimgpop {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .header {
     padding: 10px 15px;
     display: flex;
-    justify-content: space-space-between;
+    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black ;
+    width: 90%;
+    height: 58px;
+    left: 0;
+    top: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
   }
 
-  .dheader .protitle {
+  .header .protitle {
     font-size: 1.25rem;
     font-weight: bold;
   }
 
-  .dheader .closebtn {
+  .header .closebtn {
     cursor: pointer;
-    boder: none;
+    border: none;
     outline: none;
     background: none;
-    font-size: 1.25rem
+    font-size: 1.25rem;
     font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
-  .prodes {
+  .popup.prodes {
     padding: 10px 15px;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   #overlay {
@@ -1205,6 +1227,31 @@ textarea {
     opacity: 1;
     pointer-events: all;
   }
+
+.popup.prolang {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.actbtn-live {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 35%;
+  margin-bottom: 10px;
+  width: 108px;
+  height: 48px;
+}
+
+.actbtn-source {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 33%;
+  margin-bottom: 5px;
+  width: 124px;
+  height: 48px;
+}
 /*-----------------------------------------*/
 
   .nav-ditems {
