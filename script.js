@@ -41,3 +41,23 @@ window.addEventListener('resize', () => {
     window.location.reload();
   }
 });
+
+const form = document.querySelector('.contact-form');
+const mail = document.getElementById('mail');
+const error = document.querySelector('.error-msg');
+
+form.addEventListener('submit', (e) => {
+  const msgs = [];
+
+  if (mail.value !== mail.value.toLowerCase()) {
+    msgs.push('* Please enter valid email address.');
+    msgs.push('* Email address must be in lowercase.');
+  }
+
+  if (msgs.length > 0) {
+    e.preventDefault();
+    error.innerHTML = msgs.join('<br/>');
+    mail.style.border = '2px solid #f00';
+    mail.style.borderRadius = '4px';
+  }
+});

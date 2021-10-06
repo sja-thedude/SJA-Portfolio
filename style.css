@@ -643,6 +643,12 @@ button {
   background: #7d73fc;
 }
 
+button:hover {
+  background: #7d73fc;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
 .w1p,
 .w2p,
 .w3p,
@@ -813,6 +819,7 @@ button {
 
 button:enabled {
   color: #edecff;
+  background: #7d73fc;
 }
 
 .contactformtext {
@@ -891,6 +898,20 @@ textarea {
   align-items: center;
   color: #191765;
   margin-top: 1em;
+}
+
+#mail:valid,
+#name:valid {
+  border: 2px solid #0f0;
+  border-radius: 4px;
+}
+
+.error-msg {
+  font-size: 15px;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .contact-form button {
@@ -1796,7 +1817,8 @@ textarea {
   }
 
   .btn1 button {
-    margin-left: 90%;
+    margin-left: 85%;
+    margin-top: 10px;
     text-align: center;
     align-items: center;
     display: flex;
@@ -1808,6 +1830,22 @@ textarea {
     left: 262px;
     top: 705px;
     background: #9390ff;
+    justify-content: center;
+  }
+
+  .btn p {
+    margin-left: 85%;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    position: static;
+    width: 160px;
+    height: 48px;
+    left: 262px;
+    top: 705px;
     justify-content: center;
   }
 
@@ -1914,6 +1952,23 @@ textarea {
     color: #191765;
     margin-top: 1em;
     justify-content: center;
+  }
+
+  #mail:valid,
+  #name:valid {
+    border: 2px solid #0f0;
+    border-radius: 4px;
+  }
+
+  .error-msg {
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 0 250px;
   }
 
   textarea {
