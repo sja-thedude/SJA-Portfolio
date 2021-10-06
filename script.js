@@ -41,3 +41,19 @@ window.addEventListener('resize', () => {
     window.location.reload();
   }
 });
+
+const form = document.querySelector('.contact-form');
+const mail = document.getElementById('mail');
+const name = document.getElementById('name');
+const msg = document.getElementById('msg');
+const error = document.querySelector('.error-msg');
+
+form.addEventListener('submit', (e) => {
+  const msgs = [];
+
+  if (mail.value !== mail.value.toLowerCase()) {
+    msgs.push('* Please enter valid email address.');
+    msgs.push('* Email address must be in lowercase.');
+  }
+
+});
