@@ -44,6 +44,8 @@ window.addEventListener('resize', () => {
 
 const form = document.querySelector('.contact-form');
 const mail = document.getElementById('mail');
+const name = document.getElementById('name');
+const message = document.getElementById('msg');
 const error = document.querySelector('.error-msg');
 
 form.addEventListener('submit', (e) => {
@@ -61,3 +63,25 @@ form.addEventListener('submit', (e) => {
     mail.style.borderRadius = '4px';
   }
 });
+
+let formData = { name: '', mail: '', msg: '' };
+
+const saveToLocalStorage = () => {
+  localStorage.setItem('form_data', JSON.stringify(formData));
+};
+
+name.addEventListener('change', () => {
+  formData.name = name.value;
+  saveToLocalStorage();
+});
+mail.addEventListener('change', () => {
+  formData.mail = mail.value;
+  saveToLocalStorage();
+});
+message.addEventListener('change', () => {
+  formData.msg = message.value;
+  saveToLocalStorage();
+});
+
+
+};
