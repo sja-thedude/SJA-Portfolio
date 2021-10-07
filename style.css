@@ -303,7 +303,7 @@ h1:hover {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform : translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
   border: 1px solid #fff;
   z-index: 10;
@@ -311,14 +311,14 @@ h1:hover {
   height: 95%;
   max-width: 80%;
   background: rgba(255, 255, 255, 0.16);
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   overflow-x: hidden;
   overflow-y: scroll;
   backdrop-filter: blur(10px);
 }
 
 .popup.active {
-  transform : translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .mheader {
@@ -375,7 +375,7 @@ h1:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0 ,0 , 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   pointer-events: none;
 }
 
@@ -415,7 +415,7 @@ h1:hover {
   width: 124px;
   height: 48px;
 }
-/*----------------------------------------*/
+
 .prolang li {
   padding: 5px 5px;
   margin-bottom: 29px;
@@ -1173,10 +1173,9 @@ textarea {
 
   .popup {
     position: fixed;
-    transform : translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
     border: 1px solid #fff;
-    background-color: #fff;
     z-index: 10;
     width: 90%;
     height: 95%;
@@ -1189,7 +1188,7 @@ textarea {
   }
 
   .popup.active {
-    transform : translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
   }
 
   .imgpop {
@@ -1261,7 +1260,7 @@ textarea {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0 ,0 , 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
     pointer-events: none;
   }
 

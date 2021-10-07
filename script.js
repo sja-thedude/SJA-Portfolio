@@ -139,6 +139,18 @@ const openPopupButtons = document.querySelectorAll('[data-popup-target]');
 const closePopupButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
 
+function openPopup(popup) {
+  if (popup == null) return;
+  popup.classList.add('active');
+  overlay.classList.add('active');
+}
+
+function closePopup(popup) {
+  if (popup == null) return;
+  popup.classList.remove('active');
+  overlay.classList.remove('active');
+}
+
 openPopupButtons.forEach(button => {
   button.addEventListener('click', () => {
     section.classList.remove("invisible");
@@ -163,15 +175,3 @@ closePopupButtons.forEach(button => {
     closePopup(popup);
   });
 });
-
-function openPopup(popup) {
-  if (popup == null) return;
-  popup.classList.add('active');
-  overlay.classList.add('active');
-}
-
-function closePopup(popup) {
-  if (popup == null) return;
-  popup.classList.remove('active');
-  overlay.classList.remove('active');
-}
