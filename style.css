@@ -384,11 +384,6 @@ h1:hover {
   pointer-events: all;
 }
 
-.popup .prolang {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .action {
   display: flex;
   flex-direction: column;
@@ -1269,11 +1264,6 @@ textarea {
     pointer-events: all;
   }
 
-  .popup.prolang {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
   .action {
     display: flex;
     flex-direction: row;
@@ -1770,17 +1760,6 @@ textarea {
     margin: auto;
   }
 
-  .workicon img {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: static;
-    width: 200px;
-    height: 40px;
-    left: 412px;
-    margin: 0 335px;
-  }
-
   .workicon1 h4 {
     position: static;
     width: 47px;
@@ -2268,14 +2247,5 @@ textarea {
     font-weight: normal;
     line-height: 28px;
     padding: 10px 10px;
-  }
-
-  .contact img {
-    text-align: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    padding: 10px 10px;
-    color: #fff;
   }
 }

@@ -153,7 +153,7 @@ function closePopup(popup) {
 
 openPopupButtons.forEach(button => {
   button.addEventListener('click', () => {
-    section.classList.remove("invisible");
+    section.classList.remove('invisible');
     document.body.classList.add('fixed');
     const popup = document.querySelector(button.dataset.popupTarget);
     openPopup(popup);
