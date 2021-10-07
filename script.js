@@ -151,7 +151,7 @@ function closePopup(popup) {
   overlay.classList.remove('active');
 }
 
-openPopupButtons.forEach(button => {
+openPopupButtons.forEach((button) => {
   button.addEventListener('click', () => {
     section.classList.remove('invisible');
     document.body.classList.add('fixed');
@@ -162,12 +162,12 @@ openPopupButtons.forEach(button => {
 
 overlay.addEventListener('click', () => {
   const popups = document.querySelectorAll('.popup.active');
-  popups.forEach(popup => {
+  popups.forEach((popup) => {
     closePopup(popup);
   });
 });
 
-closePopupButtons.forEach(button => {
+closePopupButtons.forEach((button) => {
   button.addEventListener('click', () => {
     section.classList.add('invisible');
     document.body.classList.remove('fixed');
