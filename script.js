@@ -155,3 +155,24 @@ overlay.addEventListener('click', () => {
     closePopup(popup)
   })
 })
+
+closePopupButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    section.classList.add("invisible")
+    document.body.classList.remove('fixed');
+    const popup = button.closest('.popup')
+    closePopup(popup)
+  })
+})
+
+function openPopup(popup) {
+  if (popup == null) return
+    popup.classList.add('active')
+    overlay.classList.add('active')
+}
+
+function closePopup(popup) {
+  if (popup == null) return
+    popup.classList.remove('active')
+    overlay.classList.remove('active')
+}
