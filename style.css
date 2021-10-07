@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 html {
   background: #191765;
@@ -339,8 +340,12 @@ h1:hover {
 .prodes {
   padding: 10px 15px;
   font-size: 16px;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  width: 279px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
 }
 
 #overlay {
@@ -360,9 +365,21 @@ h1:hover {
   pointer-events: all;
 }
 
+.popup .prolang .bs {
+  display: none;
+  border: none;
+}
+
 #prolang {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.popup .ruby {
+  position: static;
+  font-family: "Poppins" , sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
 }
 
 .actbtn-live {
@@ -380,7 +397,7 @@ h1:hover {
   align-items: center;
   text-align: center;
   margin-left: 33%;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   width: 124px;
   height: 48px;
 }
@@ -1165,12 +1182,11 @@ textarea {
 
   .dimgpop {
     display: block;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    width: 50%;
+    height: 50%;
   }
 
-  .header {
+  .mheader {
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
@@ -1187,28 +1203,44 @@ textarea {
     color: #fff;
   }
 
-  .header .protitle {
-    font-size: 1.25rem;
-    font-weight: bold;
+  .mheader .protitle {
+    position: static;
+    width: 1056px;
+    height: 48px;
+    left: 0;
+    top: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #fff;
   }
 
-  .header .closebtn {
+  .mheader .closebtn {
     cursor: pointer;
     border: none;
     outline: none;
     background: none;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
 
-  .popup.prodes {
-    padding: 10px 15px;
+  .prodes {
+    position: static;
+    width: 684px;
+    left: 0;
+    top: 0;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    margin-bottom: 0;
-    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    margin-left: 30px;
   }
 
   #overlay {
@@ -1233,22 +1265,39 @@ textarea {
   margin-bottom: 0;
 }
 
+.popup .prolang .bs {
+  font-size: 14px;
+  display: block;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .actbtn-live {
   justify-content: center;
-  align-items: center;
   text-align: center;
-  margin-left: 35%;
-  margin-bottom: 10px;
   width: 108px;
   height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  position: absolute;
+  background: #7d73fc;
+  margin-left: 20px;
 }
 
 .actbtn-source {
   justify-content: center;
-  align-items: center;
   text-align: center;
-  margin-left: 33%;
-  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  position: absolute;
   width: 124px;
   height: 48px;
 }
@@ -1903,7 +1952,7 @@ textarea {
   .w3p,
   .w4p p {
     position: static;
-    width: 448px;
+    width: 370px;
     height: 140px;
     top: 129px;
     font-family: "Roboto", sans-serif;
