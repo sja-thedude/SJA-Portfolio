@@ -126,7 +126,6 @@ section.innerHTML = `<div id="popup" class="popup">
 </div>
 <div id="overlay"></div>`;
 
-const sec = document.querySelector('.popup');--TO REMOVE
 const secData = data[0];
 
 document.querySelector('.popup .actbtn-live').onclick = () => {
