@@ -44,6 +44,8 @@ window.addEventListener('resize', () => {
 
 const form = document.querySelector('.contact-form');
 const mail = document.getElementById('mail');
+const name = document.getElementById('name');
+const message = document.getElementById('msg');
 const error = document.querySelector('.error-msg');
 
 form.addEventListener('submit', (e) => {
@@ -62,14 +64,41 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+let formData = { name: '', mail: '', msg: '' };
+
+const saveToLocalStorage = () => {
+  localStorage.setItem('form_data', JSON.stringify(formData));
+};
+
+name.addEventListener('change', () => {
+  formData.name = name.value;
+  saveToLocalStorage();
+});
+mail.addEventListener('change', () => {
+  formData.mail = mail.value;
+  saveToLocalStorage();
+});
+message.addEventListener('change', () => {
+  formData.msg = message.value;
+  saveToLocalStorage();
+});
+window.onload = () => {
+  if (localStorage.getItem('form_data') !== null) {
+    formData = JSON.parse(localStorage.getItem('form_data'));
+    name.value = formData.name;
+    mail.value = formData.mail;
+    message.value = formData.msg;
+  }
+};
+
 const data = [
   {
     pro: 'Multi-Post Stories',
     proimg: 'img/Snapshoot-big.png',
-    prodes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
-    prolang: ['html', 'Ruby on rails', 'css', 'Github'],
-    live_version: 'https://sja-thedude.github.io/',
-    source_code: 'https://github.com/sja-thedude/',
+    prodes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    prolang: ['html', 'Ruby on rails', 'css'],
+    live_version: 'https://sja-thedude.github.io/Project-Portfolio-setup-and-mobile-version-skeleton/',
+    source_code: 'https://github.com/sja-thedude/Project-Portfolio-setup-and-mobile-version-skeleton',
   },
 ];
 
@@ -88,8 +117,7 @@ section.innerHTML=`<div id="popup" class="popup">
     <li class="pro-item"><span class="html">${project.prolang[0]}</span></li>
     <li class="pro-item"><span class="ruby">${project.prolang[1]}</span></li>
     <li class="pro-item"><span class="css">${project.prolang[2]}</span></li>
-    <li class="pro-item"><span class="bs">${project.prolang[3]}</span></li>
-    <li class="pro-item"><span class="bs"></span></li>
+    <li class="pro-item"><span class=""></span></li>
   </ul>
 <div class="action">
   <button class="actbtn-live" type="button">See live <img src="img/Icon1.png" alt="see live icon"></button>
@@ -127,24 +155,3 @@ overlay.addEventListener('click', () => {
     closePopup(popup)
   })
 })
-
-closePopupButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    section.classList.add("invisible")
-    document.body.classList.remove('fixed');
-    const popup = button.closest('.popup')
-    closePopup(popup)
-  })
-})
-
-function openPopup(popup) {
-  if (popup == null) return
-    popup.classList.add('active')
-    overlay.classList.add('active')
-}
-
-function closePopup(popup) {
-  if (popup == null) return
-    popup.classList.remove('active')
-    overlay.classList.remove('active')
-}
