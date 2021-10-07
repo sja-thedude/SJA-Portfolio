@@ -282,7 +282,6 @@ h1:hover {
   margin: 0;
   justify-content: center;
 }
-/*------------------------------------*/
 
 .invisible {
   display: none;
@@ -311,7 +310,6 @@ h1:hover {
   width: 80%;
   height: 95%;
   max-width: 80%;
-  background-color: #fff;
   background: rgba(255, 255, 255, 0.16);
   box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
   overflow-x: hidden;
@@ -386,27 +384,9 @@ h1:hover {
   pointer-events: all;
 }
 
-.popup .prolang .html {
-  font-size: 11px;
-  font-family: "Poppins" , sans-serif;
-  color: #FFFFFF;
-}
-
-.popup .prolang .css {
-  font-family: "Poppins" , sans-serif;
-  font-size: 11px;
-  color: #FFFFFF;
-}
-
 .popup .prolang {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.popup .ruby {
-  font-family: "Poppins" , sans-serif;
-  font-size: 11px;
-  color: #FFFFFF;
 }
 
 .action {
@@ -1191,8 +1171,6 @@ textarea {
     width: 65%;
   }
 
-  /*-------------desktop popup-----------------------*/
-
   .popup {
     position: fixed;
     transform : translate(-50%, -50%) scale(0);
@@ -1204,7 +1182,7 @@ textarea {
     height: 95%;
     max-width: 80%;
     background: rgba(255, 255, 255, 0.16);
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     overflow-y: scroll;
     overflow-x: hidden;
     backdrop-filter: blur(10px);
@@ -1292,48 +1270,42 @@ textarea {
     pointer-events: all;
   }
 
-.popup.prolang {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+  .popup.prolang {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
-.popup .prolang .bs {
-  font-size: 14px;
-  display: block;
-}
+  .action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+  }
 
-.action {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-left: 0;
-}
+  .actbtn-live {
+    justify-content: center;
+    text-align: center;
+    width: 108px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    background: #7d73fc;
+    margin-bottom: 0;
+  }
 
-.actbtn-live {
-  justify-content: center;
-  text-align: center;
-  width: 108px;
-  height: 48px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 12px;
-  background: #7d73fc;
-  margin-bottom: 0;
-}
-
-.actbtn-source {
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 12px;
-  width: 124px;
-  height: 48px;
-  margin-left: 2%;
-}
-/*-----------------------------------------*/
+  .actbtn-source {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    width: 124px;
+    height: 48px;
+    margin-left: 2%;
+  }
 
   .nav-ditems {
     display: flex;

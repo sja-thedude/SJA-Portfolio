@@ -102,9 +102,9 @@ const data = [
   },
 ];
 
-const [project] = data
-const section = document.querySelector('.mobdesk')
-section.innerHTML=`<div id="popup" class="popup">
+const [project] = data;
+const section = document.querySelector('.mobdesk');
+section.innerHTML = `<div id="popup" class="popup">
 
   <div class="mheader">
     <div class="pro"><h3 class="protitle">${project.pro}</h3></div>
@@ -124,55 +124,55 @@ section.innerHTML=`<div id="popup" class="popup">
   <button class="actbtn-source" type="button">See source <img src="img/Icon2.png" alt="see live icon"></button>
 </div>
 </div>
-<div id="overlay"></div>`
+<div id="overlay"></div>`;
 
-const sec = document.querySelector('.popup');
+const sec = document.querySelector('.popup');--TO REMOVE
 const secData = data[0];
 
 document.querySelector('.popup .actbtn-live').onclick = () => {
-      window.location.href = secData.live_version;
-    };
-    document.querySelector('.popup .actbtn-source').onclick = () => {
-      window.location.href = secData.source_code;
-    };
+  window.location.href = secData.live_version;
+};
+document.querySelector('.popup .actbtn-source').onclick = () => {
+  window.location.href = secData.source_code;
+};
 
-const openPopupButtons = document.querySelectorAll('[data-popup-target]')
-const closePopupButtons = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
+const openPopupButtons = document.querySelectorAll('[data-popup-target]');
+const closePopupButtons = document.querySelectorAll('[data-close-button]');
+const overlay = document.getElementById('overlay');
 
 openPopupButtons.forEach(button => {
   button.addEventListener('click', () => {
-    section.classList.remove("invisible")
+    section.classList.remove("invisible");
     document.body.classList.add('fixed');
-    const popup = document.querySelector(button.dataset.popupTarget)
-    openPopup(popup)
-  })
-})
+    const popup = document.querySelector(button.dataset.popupTarget);
+    openPopup(popup);
+  });
+});
 
 overlay.addEventListener('click', () => {
-  const popups = document.querySelectorAll('.popup.active')
+  const popups = document.querySelectorAll('.popup.active');
   popups.forEach(popup => {
-    closePopup(popup)
-  })
-})
+    closePopup(popup);
+  });
+});
 
 closePopupButtons.forEach(button => {
   button.addEventListener('click', () => {
-    section.classList.add("invisible")
+    section.classList.add('invisible');
     document.body.classList.remove('fixed');
-    const popup = button.closest('.popup')
-    closePopup(popup)
-  })
-})
+    const popup = button.closest('.popup');
+    closePopup(popup);
+  });
+});
 
 function openPopup(popup) {
-  if (popup == null) return
-    popup.classList.add('active')
-    overlay.classList.add('active')
+  if (popup == null) return;
+  popup.classList.add('active');
+  overlay.classList.add('active');
 }
 
 function closePopup(popup) {
-  if (popup == null) return
-    popup.classList.remove('active')
-    overlay.classList.remove('active')
+  if (popup == null) return;
+  popup.classList.remove('active');
+  overlay.classList.remove('active');
 }
