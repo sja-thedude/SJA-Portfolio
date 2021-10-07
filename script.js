@@ -82,6 +82,11 @@ message.addEventListener('change', () => {
   formData.msg = message.value;
   saveToLocalStorage();
 });
-
-
+window.onload = () => {
+  if (localStorage.getItem('form_data') !== null) {
+    formData = JSON.parse(localStorage.getItem('form_data'));
+    name.value = formData.name;
+    mail.value = formData.mail;
+    message.value = formData.msg;
+  }
 };
