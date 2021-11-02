@@ -271,6 +271,10 @@ h1:hover {
   color: #fff;
 }
 
+.p1 img {
+  width: 360px;
+}
+
 .work {
   background-image: url("img/portfoliobackgroud.png");
   background-repeat: no-repeat;
@@ -747,7 +751,6 @@ body {
 .w4 h3 {
   position: static;
   width: 100%;
-  height: 105px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1416,6 +1419,10 @@ textarea {
     margin: auto;
   }
 
+  .p1 img {
+    width: 750px;
+  }
+
   h1 {
     width: 100%;
     position: static;
@@ -1944,6 +1951,7 @@ textarea {
     font-size: 20px;
     line-height: 28px;
     color: #dfe1e6;
+    margin-left: 5px;
   }
 
   .prolang {

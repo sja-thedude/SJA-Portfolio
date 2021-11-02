@@ -93,12 +93,12 @@ window.onload = () => {
 
 const data = [
   {
-    pro: 'Multi-Post Stories',
-    proimg: 'img/Snapshoot-big.png',
-    prodes: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    pro: 'Capstone Project 1',
+    proimg: 'img/project1.png',
+    prodes: 'Microverse is an online remote school for Software developers! The main Aim of it is to provide related skills to land a remote Job!',
     prolang: ['html', 'Ruby on rails', 'css'],
-    live_version: 'https://sja-thedude.github.io/Project-Portfolio-setup-and-mobile-version-skeleton/',
-    source_code: 'https://github.com/sja-thedude/Project-Portfolio-setup-and-mobile-version-skeleton',
+    live_version: 'https://sja-thedude.github.io/Capstone-Project-Module1/',
+    source_code: 'https://github.com/sja-thedude/Capstone-Project-Module1',
   },
 ];
 
