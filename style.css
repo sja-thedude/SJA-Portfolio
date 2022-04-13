@@ -1247,6 +1247,10 @@ textarea {
     width: 65%;
   }
 
+  .p1 img {
+    width: 750px;
+  }
+
   .popup {
     position: fixed;
     transform: translate(-50%, -50%) scale(0);
@@ -1567,10 +1571,6 @@ textarea {
     width: 100%;
     justify-content: center;
     margin: auto;
-  }
-
-  .p1 img {
-    width: 750px;
   }
 
   h1 {
