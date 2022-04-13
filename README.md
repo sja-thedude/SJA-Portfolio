@@ -14,7 +14,7 @@ This project is a part of my Microverse curriculum. This is made as the 1st day 
 
 ## Live
 
-[Live Link](https://sja-thedude.github.io/Project-Portfolio-setup-and-mobile-version-skeleton/)
+[Live Link](https://sja-thedude.github.io/SJA-Portfolio/)
 
 ## Getting Started
 
