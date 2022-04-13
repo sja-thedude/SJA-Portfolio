@@ -2101,7 +2101,8 @@ textarea {
     font-size: 20px;
     line-height: 28px;
     color: #dfe1e6;
-    margin-left: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .prolang {
