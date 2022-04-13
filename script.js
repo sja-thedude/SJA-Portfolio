@@ -150,7 +150,7 @@ section.innerHTML = `<div id="popup" class="popup">
 </div>
 <div id="overlay"></div>`;
 
-const secData = data[0];
+const secData = data;
 
 document.querySelector('.popup .actbtn-live').onclick = () => {
   window.location.href = secData.live_version;
