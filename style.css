@@ -303,6 +303,18 @@ h1:hover {
   width: 100%;
 }
 
+#popup1 > div.imgpop > img {
+  width: 100%;
+}
+
+#popup2 > div.imgpop > img {
+  width: 100%;
+}
+
+#popup3 > div.imgpop > img {
+  width: 100%;
+}
+
 .popup {
   position: fixed;
   top: 50%;
@@ -322,6 +334,72 @@ h1:hover {
 }
 
 .popup.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid #fff;
+  z-index: 10;
+  width: 80%;
+  height: 95%;
+  max-width: 80%;
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  backdrop-filter: blur(10px);
+}
+
+.popup1.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid #fff;
+  z-index: 10;
+  width: 80%;
+  height: 95%;
+  max-width: 80%;
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  backdrop-filter: blur(10px);
+}
+
+.popup2.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup3 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid #fff;
+  z-index: 10;
+  width: 80%;
+  height: 95%;
+  max-width: 80%;
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  backdrop-filter: blur(10px);
+}
+
+.popup3.active {
   transform: translate(-50%, -50%) scale(1);
 }
 
@@ -1189,6 +1267,66 @@ textarea {
     transform: translate(-50%, -50%) scale(1);
   }
 
+  .popup1 {
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid #fff;
+    z-index: 10;
+    width: 90%;
+    height: 95%;
+    max-width: 80%;
+    background: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    backdrop-filter: blur(10px);
+  }
+
+  .popup1.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .popup2 {
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid #fff;
+    z-index: 10;
+    width: 90%;
+    height: 95%;
+    max-width: 80%;
+    background: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    backdrop-filter: blur(10px);
+  }
+
+  .popup2.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .popup3 {
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid #fff;
+    z-index: 10;
+    width: 90%;
+    height: 95%;
+    max-width: 80%;
+    background: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    backdrop-filter: blur(10px);
+  }
+
+  .popup3.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
   .imgpop {
     width: 90%;
     justify-content: center;
@@ -1196,6 +1334,18 @@ textarea {
   }
 
   #popup > div.imgpop > img {
+    width: 100%;
+  }
+
+  #popup1 > div.imgpop > img {
+    width: 100%;
+  }
+
+  #popup2 > div.imgpop > img {
+    width: 100%;
+  }
+
+  #popup3 > div.imgpop > img {
     width: 100%;
   }
 
