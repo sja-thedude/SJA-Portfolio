@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-208602986-1"></script>
     <script>
@@ -36,7 +37,7 @@
                 </li>
                 <li class="nav-ditem">
                     <a href="#about">
-                        <p class="nav-ditemabout">About</p>
+                        <p class="nav-ditemabout">Work</p>
                     </a>
                     <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
                 </li>
@@ -47,7 +48,7 @@
                     <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
                 </li>
                 <li class="unicon">
-                    <img src="img/UnionEnv.png" alt="Envelope" />
+                    <a href="mailto:sja.affu765@gmail.com"><img src="img/UnionEnv.png" alt="Envelope" /></a>
                 </li>
             </ul>
             <!--Mobile First-->
@@ -64,7 +65,9 @@
                 <p class="par">
                     I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
                 </p>
-                <button class="aboutbtn" type="button"><a class="aboutbtn" href="https://docs.google.com/document/d/18LiIQkAxY2FPFSMvk0uxBNDamyZSRDzsKvvz-TXvTIg/edit?usp=sharing">My Resume</a></button>
+                <div class="btn-about-me">
+                <a class="aboutbtn" href="https://docs.google.com/document/d/18LiIQkAxY2FPFSMvk0uxBNDamyZSRDzsKvvz-TXvTIg/edit?usp=sharing">My Resume</a>
+                </div>
             </section>
             <div class="hr1">
                 <hr>
@@ -110,11 +113,18 @@
                     <h4>Work</h4>
                 </div>
                 <div class="link">
-                    <img src="img/SocialMedia.png" alt="Social Media" />
+                    <!--<img src="img/SocialMedia.png" alt="Social Media" />-->
+                    <ul class="icons top">
+                        <li class="icons-list"> <a href="https://github.com/sja-thedude"><i class="fab fa-github"></i></a></li>
+                        <li class="icons-list"> <a href="https://www.linkedin.com/in/sja-thedude/"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="icons-list"> <a href="https://medium.com/@sja-thedude"><i class="fab fa-medium"></i></a></li>
+                        <li class="icons-list"><a href="https://angel.co/u/sja-thedude"><i class="fab fa-angellist"></i></a></li>
+                        <li class="icons-list "> <a href="https://twitter.com/sja_thedude"><i class="fab fa-twitter"></i></a></li>
+                     </ul>
                 </div>
                 <div class="workicon2">
                     <img src="img/arrowdown.png" alt="Arrow" />
-                    <h4>Work</h4>
+                    <h4 class="work2">Work</h4>
                 </div>
             </div>
         </section>
@@ -124,7 +134,7 @@
                 <hr>
             </div>
 
-            <!--start mobile and desktop popup----------------->
+            <!--start mobile and desktop popup-->
             <section class="mobdesk invisible">
             </section>
             <section class="mobdesk1 invisible">
@@ -133,7 +143,7 @@
             </section>
             <section class="mobdesk3 invisible">
             </section>
-            <!--end mobile and desktop popup---->
+            <!--end mobile and desktop popup-->
 
             <section class="w1">
                 <div class="p1"><img src="img/project1.png" alt="Html/CSS Capstone"></div>
@@ -150,7 +160,7 @@
                         <li><span class="bs">bootstrap</span></li>
                         <li><span class="ruby">Javascript</span></li>
                     </ul>
-                    <button data-popup-target="#popup" class="see-project">See Project</button>
+                    <button type="button" data-popup-target="#popup" class="see-project">See Project</button>
                 </div>
             </section>
             <section class="w2">
@@ -168,7 +178,7 @@
                         <li><span class="bs">bootstrap</span></li>
                         <li><span class="ruby">React</span></li>
                     </ul>
-                    <button data-popup-target="#popup1" class="see-project">See Project</button>
+                    <button type="button" data-popup-target="#popup1" class="see-project">See Project</button>
                 </div>
             </section>
             <section class="w3">
@@ -186,7 +196,7 @@
                         <li><span class="bs">Rails</span></li>
                         <li><span class="ruby">Ruby</span></li>
                     </ul>
-                    <button data-popup-target="#popup2" class="see-project">See Project</button>
+                    <button type="button" data-popup-target="#popup2" class="see-project">See Project</button>
                 </div>
             </section>
             <section class="w2">
@@ -204,7 +214,7 @@
                         <li><span class="bs">React</span></li>
                         <li><span class="ruby">Rails</span></li>
                     </ul>
-                    <button data-popup-target="#popup3" class="see-project">See Project</button>
+                    <button type="button" data-popup-target="#popup3" class="see-project">See Project</button>
                 </div>
             </section>
         </section>
@@ -238,7 +248,14 @@
         </div>
 
         <section class="contact">
-            <img src="img/SocialMedia.png" alt="Social Media" />
+            <!--<img src="img/SocialMedia.png" alt="Social Media" />-->
+            <ul class="icons top">
+                <li class="icons-list"> <a href="https://github.com/sja-thedude"><i class="fab fa-github"></i></a></li>
+                <li class="icons-list"> <a href="https://www.linkedin.com/in/sja-thedude/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="icons-list"> <a href="https://medium.com/@sja-thedude"><i class="fab fa-medium"></i></a></li>
+                <li class="icons-list"><a href="https://angel.co/u/sja-thedude"><i class="fab fa-angellist"></i></a></li>
+                <li class="icons-list "> <a href="https://twitter.com/sja_thedude"><i class="fab fa-twitter"></i></a></li>
+             </ul>
             <h2>sja.affu765@gmail.com</h2>
         </section>
     </section>
