@@ -278,6 +278,7 @@ h1:hover {
   justify-content: center;
   align-items: center;
   padding: 20px 20px;
+  margin-left: 40px;
 }
 
 ul.icons.top {
@@ -285,6 +286,7 @@ ul.icons.top {
   list-style-type: none;
   color: #000;
   margin: auto;
+  margin-right: 20px;
 }
 
 i.fab.fa-linkedin,
@@ -2435,7 +2437,7 @@ textarea {
 
   .contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     text-align: center;
     color: #fff;
@@ -2450,5 +2452,6 @@ textarea {
     font-weight: normal;
     line-height: 28px;
     padding: 10px 10px;
+    margin-left: 50px;
   }
 }
