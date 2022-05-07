@@ -289,6 +289,10 @@ ul.icons.top {
   margin-right: 20px;
 }
 
+.contact ul.icons {
+  margin: auto;
+}
+
 i.fab.fa-linkedin,
 i.fab.fa-angellist,
 i.fab.fa-twitter,
