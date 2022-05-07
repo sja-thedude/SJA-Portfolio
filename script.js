@@ -95,7 +95,7 @@ const data = [
   {
     pro: 'Microverse',
     proimg: 'img/proj1.png',
-    prodes: 'This project is created as part of the Html/CSS Capstone at Microverse. Microverse is an online remote school for Software developers! The main Aim of it is to provide related skills to land a remote Job!',
+    prodes: 'Microverse is an online remote school for Software developers! The main Aim of it is to provide related skills to land a remote Job!',
     prolang: ['Html', 'Javascript', 'Css'],
     live_version: 'https://sja-thedude.github.io/Capstone-Project-Module1/',
     source_code: 'https://github.com/sja-thedude/Capstone-Project-Module1',
@@ -180,7 +180,7 @@ const data1 = [
   {
     pro: 'Forex Metrics App',
     proimg: 'img/proj2.png',
-    prodes: 'This project is created as part of the React Capstone at Microverse. This app displays a list of all popular Forex pair real-time prices. Users can click on currency pair to view the latest updates about the pair.',
+    prodes: 'This app displays a list of all popular Forex pair real-time prices. Users can click on currency pair to view the latest updates about the pair.',
     prolang: ['Css', 'React', 'Redux'],
     live_version: 'https://sja-forex-metrics-webapp.netlify.app/',
     source_code: 'https://github.com/sja-thedude/Forex-Metrics-Webapp',
@@ -264,8 +264,8 @@ closePopupButtons1.forEach((button) => {
 const data2 = [
   {
     pro: 'Budget App',
-    proimg: 'img/proj3.png',
-    prodes: 'This project is created as part of the Rails Capstone at Microverse. This app is a mobile web application where a user manage its budget: have a list of transactions associated with a category, so that the user can see how much money it spent and on what.',
+    proimg: 'img/pro5.png',
+    prodes: 'This app is a mobile web application where a user manage its budget: have a list of transactions associated with a category, so that the user can see how much money it spent and on what.',
     prolang: ['Html', 'Rails', 'Postgresql'],
     live_version: 'https://lit-ridge-01801.herokuapp.com/',
     source_code: 'https://github.com/sja-thedude/Budget-App',
@@ -350,7 +350,7 @@ const data3 = [
   {
     pro: 'Book an Appointment',
     proimg: 'img/proj4.png',
-    prodes: 'This project is build for the Final Capstone Project which is based on an app to book an appointment to the doctor, we followed the given design of the website, but we personalized the content.',
+    prodes: 'This project is based on an app to book an appointment to the doctor, we followed the given design of the website, but we personalized the content.',
     prolang: ['React', 'Rails', 'Postgresql'],
     live_version: 'https://frontend-doctor-api1.netlify.app/',
     source_code: 'https://github.com/sja-thedude/book-an-appointment-backend',
