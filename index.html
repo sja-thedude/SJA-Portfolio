@@ -1,244 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-208602986-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-208602986-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-208602986-1');
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-  </head>
-  <body>
+        gtag('config', 'UA-208602986-1');
+    </script>
+
+</head>
+
+<body>
     <header class="header">
-      <nav class="nav">
-        <a href="#" class="logo">SJA</a>
-        <!--Desktop Version Menu-->
-        <ul class="nav-ditems">
-          <li class="nav-ditem">
-            <a href="#portfolio"><p class="nav-ditemportfolio">Portfolio</p></a>
-            <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
-          </li>
-          <li class="nav-ditem">
-            <a href="#about"><p class="nav-ditemabout">About</p></a>
-            <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
-          </li>
-          <li class="nav-ditem">
-            <a href="#contact"><p class="nav-ditemcontact">Contact</p></a>
-            <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
-          </li>
-          <li class="unicon">
-            <img src="img/UnionEnv.png" alt="Envelope" />
-          </li>
-        </ul>
-        <!--Mobile First-->
-        <div class="menubtn">
-          <img class="btn" src="img/Union.png" alt="Union" />
-        </div>
-      </nav>
+        <nav class="nav">
+            <a href="#" class="logo">SJA</a>
+            <!--Desktop Version Menu-->
+            <ul class="nav-ditems">
+                <li class="nav-ditem">
+                    <a href="#portfolio">
+                        <p class="nav-ditemportfolio">Portfolio</p>
+                    </a>
+                    <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
+                </li>
+                <li class="nav-ditem">
+                    <a href="#about">
+                        <p class="nav-ditemabout">Work</p>
+                    </a>
+                    <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
+                </li>
+                <li class="nav-ditem">
+                    <a href="#contact">
+                        <p class="nav-ditemcontact">Contact</p>
+                    </a>
+                    <img class="iconright" src="img/Icon-mobilemenu.png" alt="Icon Right" />
+                </li>
+                <li class="unicon">
+                    <a href="mailto:sja.affu765@gmail.com"><img src="img/UnionEnv.png" alt="Envelope" /></a>
+                </li>
+            </ul>
+            <!--Mobile First-->
+            <div class="menubtn">
+                <img class="btn" src="img/Union.png" alt="Union" />
+            </div>
+        </nav>
     </header>
     <section class="mainabout">
-      <section id="portfolio" class="intro">
-        <section class="about">
-          <h1>SJA</h1>
-          <h2 class="para">Software Developer</h2>
-          <p class="par">
-            I can help you build a product ,
-            feature or website. Look through some of my work and
-            experience!
-            If you like what you see and have a project you need coded,
-            don’t hestiate to contact me.
-          </p>
-        </section>
-        <div class="hr1"><hr></div>
-
-        <section class="head">
-          <div class="lang">
-            <h3>Language</h3>
-            <ul>
-              <li class="l1">Javascript</li>
-              <li class="l2">Ruby</li>
-              <li class="l3">Html</li>
-              <li class="l4">Css</li>
-            </ul>
-          </div>
-          <div class="fw">
-            <h3>Frameworks</h3>
-            <ul>
-              <li class="fw1">Bootstap</li>
-              <li class="fw2">Ruby on Rails</li>
-              <li class="fw3">RsPec</li>
-              <li class="fw4">CapyBara</li>
-              <li class="fw5">Selenium</li>
-            </ul>
-          </div>
-          <div class="skills">
-            <h3>Skills</h3>
-            <ul>
-              <li class="s1">CodeKit</li>
-              <li class="s2">Github</li>
-              <li class="s3">Codepen</li>
-              <li class="s4">Gitlab</li>
-              <li class="s5">Terminal</li>
-            </ul>
-          </div>
-        </section>
-        <div class="hr2"><hr></div>
-        <div class="socialicon">
-          <div class="workicon1">
-            <img src="img/arrowdown.png" alt="Arrow" />
-            <h4>Work</h4>
-          </div>
-          <div class="link">
-            <img src="img/SocialMedia.png" alt="Social Media" />
-          </div>
-          <div class="workicon2">
-            <img src="img/arrowdown.png" alt="Arrow" />
-            <h4>Work</h4>
-          </div>
-        </div>
-      </section>
-      <section id="about" class="work">
-        <h2>My Recent Work</h2>
-        <div class="hr3"><hr></div>
-
-        <!--start mobile and desktop popup----------------->
-        <section class="mobdesk invisible">
-        </section>
-        <section class="mobdesk1 invisible">
-        </section>
-        <section class="mobdesk2 invisible">
-        </section>
-        <section class="mobdesk3 invisible">
-        </section>
-        <!--end mobile and desktop popup---->
-
-        <section class="w1">
-          <div class="p1"><img src="img/project1.png" alt="Html/CSS Capstone"></div>
-          <div class="w1p">
-            <div class="pro"><h3>Microverse</h3></div>
-            <p>
-              This project is created as part of the Html/CSS Capstone at Microverse. Microverse is an online remote school for Software developers! The main Aim of it is to provide related skills to land a remote Job!
-            </p>
-            <ul class="prolang">
-              <li><span class="css">css</span></li>
-              <li><span class="html">html</span></li>
-              <li><span class="bs">bootstrap</span></li>
-              <li><span class="ruby">Javascript</span></li>
-            </ul>
-            <button data-popup-target="#popup" class="see-project">See Project</button>
-          </div>
-        </section>
-        <section class="w2">
-          <div class="p1"><img src="img/project2.png" alt="React Capstone"></div>
-          <div class="w2p">
-            <div class="pro"><h3>Forex Metrics App</h3></div>
-            <p>
-              This project is created as part of the React Capstone at Microverse. This app displays a list of all popular Forex pair real-time prices. Users can click on currency pair to view the latest updates about the pair.
-            </p>
-            <ul class="prolang">
-              <li><span class="css">css</span></li>
-              <li><span class="html">Redux</span></li>
-              <li><span class="bs">bootstrap</span></li>
-              <li><span class="ruby">React</span></li>
-            </ul>
-            <button data-popup-target="#popup1" class="see-project">See Project</button>
-          </div>
-        </section>
-        <section class="w3">
-          <div class="p1"><img src="img/project3.png" alt="Rails Capstone"></div>
-          <div class="w3p">
-            <div class="pro"><h3>Budget App</h3></div>
-            <p>
-              This project is created as part of the Rails Capstone at Microverse. This app is a mobile web application where a user manage its budget: have a list of transactions associated with a category, so that the user can see how much money it spent and on what.
-            </p>
-            <ul class="prolang">
-              <li><span class="css">Postgresql</span></li>
-              <li><span class="html">html</span></li>
-              <li><span class="bs">Rails</span></li>
-              <li><span class="ruby">Ruby</span></li>
-            </ul>
-            <button data-popup-target="#popup2" class="see-project">See Project</button>
-          </div>
-        </section>
-        <section class="w2">
-          <div class="p1"><img src="img/project4.png" alt="Final Capstone"></div>
-          <div class="w2p">
-            <div class="pro"><h3>Book an Appointment</h3></div>
-            <p>
-              This project is build for the Final Capstone Project which is based on an app to book an appointment to the doctor, we followed the given design of the website, but we personalized the content.
-            </p>
-            <ul class="prolang">
-              <li><span class="css">Sass</span></li>
-              <li><span class="html">Html</span></li>
-              <li><span class="bs">React</span></li>
-              <li><span class="ruby">Rails</span></li>
-            </ul>
-            <button data-popup-target="#popup3" class="see-project">See Project</button>
-          </div>
-        </section>
-      </section>
-    <footer id="contact" class="contact-form">
-      <h1>Let's chat!</h1>
-      <p class="contactformtext">
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I’d love to help
-        with it
-      </p>
-      <form action="https://formspree.io/f/mrgrjobb" method="post">
-        <ul class="formlist">
-          <li>
-            <input
-              type="text"
-              id="name"
-              placeholder="Name"
-              name="name"
-              maxlength="30"
-              required
-            />
-          </li>
-          <li>
-            <input
-              type="email"
-              id="mail"
-              placeholder="Email Address"
-              name="email"
-              required
-            />
-          </li>
-          <li>
-            <textarea
-              id="msg"
-              placeholder="Write your message here"
-              name="message"
-              maxlength="500"
-              required
-            ></textarea>
-          </li>
-          <li>
-            <div class="btn1">
-              <p class="error-msg"></p>
-              <button type="submit">Send Message</button>
+        <section id="portfolio" class="intro">
+            <section class="about">
+                <h1>SJA</h1>
+                <h2 class="para">Software Engineer</h2>
+                <p class="par">
+                    I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+                <div class="btn-about-me">
+                <a class="aboutbtn" href="https://docs.google.com/document/d/18LiIQkAxY2FPFSMvk0uxBNDamyZSRDzsKvvz-TXvTIg/edit?usp=sharing">My Resume</a>
+                </div>
+            </section>
+            <div class="hr1">
+                <hr>
             </div>
-          </li>
-        </ul>
-      </form>
-    </footer>
-    <div class="hr4"><hr></div>
 
-    <section class="contact">
-      <img src="img/SocialMedia.png" alt="Social Media" />
-      <h2>sja.affu765@gmail.com</h2>
+            <section class="head">
+                <div class="lang">
+                    <h3>Language</h3>
+                    <ul>
+                        <li class="l1">Javascript</li>
+                        <li class="l2">Ruby</li>
+                        <li class="l3">Html</li>
+                        <li class="l4">Css</li>
+                    </ul>
+                </div>
+                <div class="fw">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li class="fw1">Bootstap</li>
+                        <li class="fw2">Ruby on Rails</li>
+                        <li class="fw3">RsPec</li>
+                        <li class="fw4">CapyBara</li>
+                        <li class="fw5">Selenium</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li class="s1">CodeKit</li>
+                        <li class="s2">Github</li>
+                        <li class="s3">Codepen</li>
+                        <li class="s4">Gitlab</li>
+                        <li class="s5">Terminal</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="hr2">
+                <hr>
+            </div>
+            <div class="socialicon">
+                <div class="workicon1">
+                    <img src="img/arrowdown.png" alt="Arrow" />
+                    <h4>Work</h4>
+                </div>
+                <div class="link">
+                    <!--<img src="img/SocialMedia.png" alt="Social Media" />-->
+                    <ul class="icons top">
+                        <li class="icons-list"> <a href="https://github.com/sja-thedude"><i class="fab fa-github"></i></a></li>
+                        <li class="icons-list"> <a href="https://www.linkedin.com/in/sja-thedude/"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="icons-list"> <a href="https://medium.com/@sja-thedude"><i class="fab fa-medium"></i></a></li>
+                        <li class="icons-list"><a href="https://angel.co/u/sja-thedude"><i class="fab fa-angellist"></i></a></li>
+                        <li class="icons-list "> <a href="https://twitter.com/sja_thedude"><i class="fab fa-twitter"></i></a></li>
+                     </ul>
+                </div>
+                <div class="workicon2">
+                    <img src="img/arrowdown.png" alt="Arrow" />
+                    <h4 class="work2">Work</h4>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="work">
+            <h2>My Recent Work</h2>
+            <div class="hr3">
+                <hr>
+            </div>
+
+            <!--start mobile and desktop popup-->
+            <section class="mobdesk invisible">
+            </section>
+            <section class="mobdesk1 invisible">
+            </section>
+            <section class="mobdesk2 invisible">
+            </section>
+            <section class="mobdesk3 invisible">
+            </section>
+            <!--end mobile and desktop popup-->
+
+            <section class="w1">
+                <div class="p1"><img src="img/project1.png" alt="Html/CSS Capstone"></div>
+                <div class="w1p">
+                    <div class="pro">
+                        <h3>Microverse</h3>
+                    </div>
+                    <p>
+                        This project is created as part of the Html/CSS Capstone at Microverse. Microverse is an online remote school for Software developers! The main Aim of it is to provide related skills to land a remote Job!
+                    </p>
+                    <ul class="prolang">
+                        <li><span class="css">css</span></li>
+                        <li><span class="html">html</span></li>
+                        <li><span class="bs">bootstrap</span></li>
+                        <li><span class="ruby">Javascript</span></li>
+                    </ul>
+                    <button type="button" data-popup-target="#popup" class="see-project">See Project</button>
+                </div>
+            </section>
+            <section class="w2">
+                <div class="p1"><img src="img/project2.png" alt="React Capstone"></div>
+                <div class="w2p">
+                    <div class="pro">
+                        <h3>Forex Metrics App</h3>
+                    </div>
+                    <p>
+                        This project is created as part of the React Capstone at Microverse. This app displays a list of all popular Forex pair real-time prices. Users can click on currency pair to view the latest updates about the pair.
+                    </p>
+                    <ul class="prolang">
+                        <li><span class="css">css</span></li>
+                        <li><span class="html">Redux</span></li>
+                        <li><span class="bs">bootstrap</span></li>
+                        <li><span class="ruby">React</span></li>
+                    </ul>
+                    <button type="button" data-popup-target="#popup1" class="see-project">See Project</button>
+                </div>
+            </section>
+            <section class="w3">
+                <div class="p1"><img src="img/project3.png" alt="Rails Capstone"></div>
+                <div class="w3p">
+                    <div class="pro">
+                        <h3>Budget App</h3>
+                    </div>
+                    <p>
+                        This project is created as part of the Rails Capstone at Microverse. This app is a mobile web application where a user manage its budget: have a list of transactions associated with a category, so that the user can see how much money it spent and on what.
+                    </p>
+                    <ul class="prolang">
+                        <li><span class="css">Postgresql</span></li>
+                        <li><span class="html">html</span></li>
+                        <li><span class="bs">Rails</span></li>
+                        <li><span class="ruby">Ruby</span></li>
+                    </ul>
+                    <button type="button" data-popup-target="#popup2" class="see-project">See Project</button>
+                </div>
+            </section>
+            <section class="w2">
+                <div class="p1"><img src="img/project4.png" alt="Final Capstone"></div>
+                <div class="w2p">
+                    <div class="pro">
+                        <h3>Book an Appointment</h3>
+                    </div>
+                    <p>
+                        This project is build for the Final Capstone Project which is based on an app to book an appointment to the doctor, we followed the given design of the website, but we personalized the content.
+                    </p>
+                    <ul class="prolang">
+                        <li><span class="css">Sass</span></li>
+                        <li><span class="html">Html</span></li>
+                        <li><span class="bs">React</span></li>
+                        <li><span class="ruby">Rails</span></li>
+                    </ul>
+                    <button type="button" data-popup-target="#popup3" class="see-project">See Project</button>
+                </div>
+            </section>
+        </section>
+        <footer id="contact" class="contact-form">
+            <h1>Let's chat!</h1>
+            <p class="contactformtext">
+                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+            </p>
+            <form action="https://formspree.io/f/mrgrjobb" method="post">
+                <ul class="formlist">
+                    <li>
+                        <input type="text" id="name" placeholder="Name" name="name" maxlength="30" required />
+                    </li>
+                    <li>
+                        <input type="email" id="mail" placeholder="Email Address" name="email" required />
+                    </li>
+                    <li>
+                        <textarea id="msg" placeholder="Write your message here" name="message" maxlength="500" required></textarea>
+                    </li>
+                    <li>
+                        <div class="btn1">
+                            <p class="error-msg"></p>
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </footer>
+        <div class="hr4">
+            <hr>
+        </div>
+
+        <section class="contact">
+            <!--<img src="img/SocialMedia.png" alt="Social Media" />-->
+            <ul class="icons top">
+                <li class="icons-list"> <a href="https://github.com/sja-thedude"><i class="fab fa-github"></i></a></li>
+                <li class="icons-list"> <a href="https://www.linkedin.com/in/sja-thedude/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="icons-list"> <a href="https://medium.com/@sja-thedude"><i class="fab fa-medium"></i></a></li>
+                <li class="icons-list"><a href="https://angel.co/u/sja-thedude"><i class="fab fa-angellist"></i></a></li>
+                <li class="icons-list "> <a href="https://twitter.com/sja_thedude"><i class="fab fa-twitter"></i></a></li>
+             </ul>
+            <h2>sja.affu765@gmail.com</h2>
+        </section>
     </section>
-  </section>
-  <script src="script.js"></script>
-  </body>
+    <script src="script.js"></script>
+</body>
+
 </html>

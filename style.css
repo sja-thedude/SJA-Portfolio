@@ -30,6 +30,22 @@ html {
   right: 24px;
 }
 
+.aboutbtn {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  color: #edecff;
+  text-decoration: none;
+  background: #7d73fc;
+  display: block;
+  width: 115px;
+  height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
 .menubtn.active {
   background: #191765;
   z-index: 2;
@@ -153,6 +169,7 @@ h1:hover {
   width: 70%;
   justify-content: center;
   animation: 3s slidein;
+  padding-bottom: 30px;
 }
 
 @keyframes slidein {
@@ -261,6 +278,27 @@ h1:hover {
   justify-content: center;
   align-items: center;
   padding: 20px 20px;
+}
+
+ul.icons.top {
+  display: flex;
+  list-style-type: none;
+  color: #000;
+  margin: auto;
+}
+
+i.fab.fa-linkedin,
+i.fab.fa-angellist,
+i.fab.fa-twitter,
+i.fab.fa-github,
+i.fab.fa-medium {
+  color: #fff;
+  margin: 10px;
+  font-size: x-large;
+}
+
+.icon .top {
+  margin: auto;
 }
 
 .contact img {
@@ -766,10 +804,11 @@ body {
   text-align: center;
   margin: auto;
   justify-content: center;
-  padding: 0 100px;
+  padding-top: 15px;
+  padding-left: 5px;
 }
 
-.workicon1 h4 {
+.workicon2 h4 {
   position: static;
   height: 32px;
   left: 30px;
@@ -788,7 +827,7 @@ body {
   padding: 10px 10px;
 }
 
-.workicon1 {
+.workicon2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -803,9 +842,14 @@ body {
   margin-right: 500px;
   margin-top: 30px;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
-.workicon2 {
+.work2 {
+  width: 50px;
+}
+
+.workicon1 {
   display: none;
 }
 
@@ -842,7 +886,7 @@ button {
   flex-direction: row;
   align-items: center;
   padding: 12px 12px;
-  font-size: 10px;
+  font-size: 11px;
   position: static;
   width: 89px;
   height: 48px;
@@ -967,9 +1011,7 @@ button:hover {
   width: 327px;
   height: 236px;
   margin-bottom: 24px;
-  background:
-    linear-gradient(0deg, #f9f9f9, #f9f9f9),
-    url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
 }
 
 .imgplaceholder > ul {
@@ -1033,6 +1075,8 @@ button:hover {
 button:enabled {
   color: #edecff;
   background: #7d73fc;
+  border: none;
+  font-weight: bold;
 }
 
 .contactformtext {
@@ -1584,8 +1628,7 @@ textarea {
     font-family: "Roboto", sans-serif;
     color: #9391ff;
     justify-content: center;
-    margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
 
   h1:hover {
@@ -1612,7 +1655,6 @@ textarea {
     color: #dfe1e6;
     justify-content: center;
     margin: auto;
-    margin-bottom: 50px;
     animation: 3s slide;
   }
 
@@ -1646,9 +1688,9 @@ textarea {
     line-height: 32px;
     text-align: center;
     color: #b3bac5;
-    padding: 0 300px;
     margin: auto;
     animation: 3s slidein;
+    padding-bottom: 10px;
   }
 
   @keyframes slidein {
@@ -2014,9 +2056,7 @@ textarea {
     width: 684px;
     height: 448px;
     margin: 0 24px;
-    background:
-      linear-gradient(0deg, #fff, #fff),
-      url(image_processing20200716-21735-f07s4k.png);
+    background: linear-gradient(0deg, #fff, #fff), url(image_processing20200716-21735-f07s4k.png);
   }
 
   .imgplaceholder > ul {
@@ -2143,10 +2183,15 @@ textarea {
     width: auto;
   }
 
+  .btn-about-me {
+    padding-bottom: 5px;
+  }
+
   .hr1 hr {
     border: 1px solid #646369;
     width: 30%;
     align-items: center;
+    margin-top: 10px;
   }
 
   .hr2 hr {
