@@ -30,7 +30,55 @@ html {
   right: 24px;
 }
 
+.videogame h3 {
+  margin: auto;
+  position: static;
+  height: 104px;
+  left: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #9490ff;
+  justify-content: center;
+  text-align: center;
+}
+
+.website h3 {
+  margin: auto;
+  position: static;
+  height: 104px;
+  left: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #9490ff;
+  justify-content: center;
+  text-align: center;
+}
+
 .aboutbtn {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  color: #edecff;
+  text-decoration: none;
+  background: #7d73fc;
+  display: block;
+  width: 115px;
+  height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.gamebtn {
   text-align: center;
   align-items: center;
   margin: auto;
@@ -925,7 +973,6 @@ button:hover {
   line-height: 28px;
   color: #dcdce8;
   margin: 0;
-  padding: 20px 10px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -1684,7 +1731,7 @@ textarea {
 
   .par {
     position: static;
-    width: 447px;
+    width: 600px;
     height: 155px;
     left: 0.5px;
     font-family: "Roboto", sans-serif;
@@ -1696,7 +1743,7 @@ textarea {
     color: #b3bac5;
     margin: auto;
     animation: 3s slidein;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
 
   @keyframes slidein {
@@ -2457,5 +2504,37 @@ textarea {
     line-height: 28px;
     padding: 10px 10px;
     margin-left: 50px;
+  }
+
+  .videogame h3 {
+    margin: auto;
+    position: static;
+    height: 104px;
+    left: 24px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #9490ff;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .website h3 {
+    margin: auto;
+    position: static;
+    height: 104px;
+    left: 24px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #9490ff;
+    justify-content: center;
+    text-align: center;
   }
 }
