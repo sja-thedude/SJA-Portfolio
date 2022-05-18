@@ -38,7 +38,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 30px;
-  line-height: 22px;
+  line-height: 40px;
   display: flex;
   align-items: center;
   color: #9490ff;
@@ -73,9 +73,15 @@ html {
   width: 115px;
   height: 25px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 25px;
   font-weight: bold;
   line-height: 25px;
+}
+
+.aboutbtn:hover {
+  background: #7d73fc;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 .gamebtn {
@@ -92,6 +98,13 @@ html {
   border-radius: 5px;
   font-weight: bold;
   line-height: 25px;
+  border-radius: 45px 15px;
+}
+
+.gamebtn:hover {
+  background: #7d73fc;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 .menubtn.active {
@@ -645,7 +658,6 @@ i.fab.fa-medium {
 }
 
 .pro h3 {
-  margin: auto;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -952,6 +964,7 @@ button {
   font-weight: 500;
   line-height: 24px;
   background: #7d73fc;
+  border-radius: 15px 50px;
 }
 
 button:hover {
@@ -2513,7 +2526,7 @@ textarea {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-size: 40px;
-    line-height: 22px;
+    line-height: 40px;
     display: flex;
     align-items: center;
     color: #9490ff;
