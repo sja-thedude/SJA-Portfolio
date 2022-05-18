@@ -112,6 +112,10 @@ html {
   z-index: 2;
 }
 
+#gameid {
+  border-radius: 20%;
+}
+
 .unicon {
   display: none;
 }
