@@ -97,8 +97,8 @@ const data = [
     proimg: 'img/proj1.png',
     prodes: 'Microverse is an online remote school for Software developers! The main Aim of it is to provide related skills to land a remote Job!',
     prolang: ['Html', 'Javascript', 'Css'],
-    live_version: 'https://sja-thedude.github.io/Capstone-Project-Module1/',
-    source_code: 'https://github.com/sja-thedude/Capstone-Project-Module1',
+    live_version: 'https://sja-thedude.github.io/Microverse/',
+    source_code: 'https://github.com/sja-thedude/Microverse',
   },
 ];
 
