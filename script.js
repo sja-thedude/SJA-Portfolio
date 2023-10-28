@@ -263,12 +263,12 @@ closePopupButtons1.forEach((button) => {
 
 const data2 = [
   {
-    pro: 'Budget App',
-    proimg: 'img/pro5.png',
-    prodes: 'This app is a mobile web application where a user manage its budget: have a list of transactions associated with a category, so that the user can see how much money it spent and on what.',
-    prolang: ['Html', 'Rails', 'Postgresql'],
-    live_version: 'https://lit-ridge-01801.herokuapp.com/',
-    source_code: 'https://github.com/sja-thedude/Budget-App',
+    pro: 'SpaceX Travellers Hub',
+    proimg: 'img/proj3.png',
+    prodes: 'This app consists of Rockets, Missions and Profile Section. Users can reserve or cancel the booking with the reservation button for rockets/dragons and can join or leave selected missions. All of these are combined and displayed in the My Profile section.',
+    prolang: ['Html', 'React', 'Redux'],
+    live_version: 'https://sjathedude-spacetravellershub.netlify.app/',
+    source_code: 'https://github.com/sja-thedude/Space-Travelers-Hub',
   },
 ];
 
