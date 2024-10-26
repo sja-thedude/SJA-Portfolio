@@ -84,6 +84,11 @@ html {
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
+.cv {
+  display: flex;
+  flex-direction: row;
+}
+
 .gamebtn {
   text-align: center;
   align-items: center;
