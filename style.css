@@ -171,14 +171,14 @@ html {
   margin: auto;
 }
 
-.intro {
+/* .intro {
   background-image: url("img/top circles.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   justify-content: center;
   margin: 0;
-}
+} */
 
 img [attribute="alt"] {
   color: #fff;
