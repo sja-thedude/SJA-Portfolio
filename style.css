@@ -171,14 +171,14 @@ html {
   margin: auto;
 }
 
-/* .intro {
-  background-image: url("img/top circles.png");
+.intro {
+  background-image: url("img/portfoliobackgroud.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   justify-content: center;
   margin: 0;
-} */
+}
 
 img [attribute="alt"] {
   color: #fff;
@@ -283,9 +283,9 @@ h1:hover {
   align-items: flex-start;
   justify-content: flex-start;
   color: #edecff;
-  /* background-image: url("img/shapes-mobile-menu.png");
+  background-image: url("img/shapes-mobile-menu.png");
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
   padding-top: 12%;
 }
 
@@ -394,9 +394,9 @@ i.fab.fa-medium {
 }
 
 .work {
-  /* background-image: url("img/portfoliobackgroud.png");
+  background-image: url("img/portfoliobackgroud.png");
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
   width: 100%;
   color: #fff;
   display: grid;
